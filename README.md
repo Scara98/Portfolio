@@ -1,4 +1,4 @@
 Kristen Bianchi
-# Portfolio
+# About me
 Data Analyst Projects
 
