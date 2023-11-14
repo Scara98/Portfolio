@@ -3,7 +3,7 @@ Kristen Bianchi
 # Data Analyst Projects
 I have three projects listed:
 
-<u>Project 1</u> - Determining differences between Subscribed customers and casual customers of citibikes. 
+<u> Project 1 </u> - Determining differences between Subscribed customers and casual customers of citibikes. 
   Dataset was provided by the coursera google data analytics course: I selected the provided *divvy trip 2018 quarter 2* dataset.
 
 Project 2- Figuring out what factors contribute to a best selling movie.
