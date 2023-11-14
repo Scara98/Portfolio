@@ -15,6 +15,7 @@ I have three projects listed in my "Portfolio" repository:
   Job occupation median pay dataset was found on Census website: 
   
     B24012 | Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over
+    
     *https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US*
   
   Job occupations held by people datasets were found on Census website:
