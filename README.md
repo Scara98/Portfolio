@@ -8,9 +8,9 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   *Dataset was provided by the Coursera Google data analytics course:* I selected the *divvy trip 2018 quarter 2* dataset.
 
   
-  **Project 1 code:**
+  [**Project 1 code:**]
   
-  https://github.com/Scara98/Portfolio/blob/main/Project%201%20code
+  (https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)
  
   **Project 1 visuals:**
    
