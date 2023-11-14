@@ -1,5 +1,5 @@
 Kristen Bianchi
-# About me
+About me
 # Data Analyst Projects
 I have three projects listed in my "Portfolio" repository (link to repository- https://github.com/Scara98/Portfolio/tree/main):
 
