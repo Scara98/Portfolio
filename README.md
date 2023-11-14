@@ -30,7 +30,7 @@ I have three projects listed in my "Portfolio" repository [link to repository](h
 
 ### **Project 2**- Figuring out what factors contribute to a best selling movie.
 
- **Dataset was found on the kaggle website and was created by Daniel Grijalvas:** 
+ **Dataset was found on the kaggle website, named "Movie Industry" and created by Daniel Grijalvas:** 
   
  [Link](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
