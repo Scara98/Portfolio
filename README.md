@@ -1,7 +1,7 @@
 Kristen Bianchi
 # About me
 # Data Analyst Projects
-I have three projects listed in my "Portfolio" repository (link to repository- https://github.com/Scara98/Portfolio/tree/main):
+I have three projects listed in my "Portfolio" repository [link to repository](https://github.com/Scara98/Portfolio/tree/main):
 
 ### **Project 1**- Determining differences between Subscribed customers and casual customers of citibikes. 
 
@@ -22,9 +22,9 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
    
    [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project1.3.jpg)
   
-  **Project 1 powerpoint:** 
+  **Project 1 powerpoint:** [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pptx)
   
-  https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pptx
+  
 
   
 
@@ -35,25 +35,24 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
  [Link](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
  
-  **Project 2 code:** 
+  **Project 2 code:** [Here](https://github.com/Scara98/Portfolio/blob/main/Project%202%20code)
   
-  https://github.com/Scara98/Portfolio/blob/main/Project%202%20code
   
   **Project 2 visuals:**
   
-   https://github.com/Scara98/Portfolio/blob/main/Project2.jpg
+   [Visual 1](https://github.com/Scara98/Portfolio/blob/main/Project2.jpg)
   
-   https://github.com/Scara98/Portfolio/blob/main/Project2.1.jpg
+   [Visual 2](https://github.com/Scara98/Portfolio/blob/main/Project2.1.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project2.2.jpg
+   [Visual 3](https://github.com/Scara98/Portfolio/blob/main/Project2.2.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project2.3.jpg
+   [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project2.3.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project2.4.jpg
+   [Visual 5](https://github.com/Scara98/Portfolio/blob/main/Project2.4.jpg)
  
- **Project 2 powerpoint:** 
+ **Project 2 powerpoint:** [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone2_pp.pptx)
  
- https://github.com/Scara98/Portfolio/blob/main/Capstone2_pp.pptx
+ 
 
  
 
@@ -76,23 +75,23 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   [Link](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
 
    
-   **Project 3 notes:** 
+   **Project 3 notes:** [Here](https://github.com/Scara98/Portfolio/blob/main/Project%203%20documentation)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project%203%20documentation
+ 
    
    **Project 3 visuals:**
     
-   https://github.com/Scara98/Portfolio/blob/main/Project3.jpg
+   [Visual 1](https://github.com/Scara98/Portfolio/blob/main/Project3.jpg)
     
-   https://github.com/Scara98/Portfolio/blob/main/Project3.1.jpg
+   [Visual 2](https://github.com/Scara98/Portfolio/blob/main/Project3.1.jpg)
     
-   https://github.com/Scara98/Portfolio/blob/main/Project3.2.jpg
+   [Visual 3](https://github.com/Scara98/Portfolio/blob/main/Project3.2.jpg)
     
-   https://github.com/Scara98/Portfolio/blob/main/Project3.3.jpg
+   [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project3.3.jpg)
    
-   **Project 3 powerpoint:** 
+   **Project 3 powerpoint:** [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone3_pp.pptx)
    
-   https://github.com/Scara98/Portfolio/blob/main/Capstone3_pp.pptx
+  
 
 
 
