@@ -9,9 +9,9 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
    
   [Link to course](https://www.coursera.org/learn/google-data-analytics-capstone)
   
-  **Project 1 code:**
+  **Project 1 code:** [Here](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)
   
-  https://github.com/Scara98/Portfolio/blob/main/Project%201%20code
+  
  
   **Project 1 visuals:**
    
@@ -64,7 +64,7 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   
    B24012 | Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over
    
-  [Link:](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
+  [Link](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
   
  **Job occupations held by people datasets were found on Census website:**
   
