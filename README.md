@@ -22,7 +22,8 @@ I have three projects listed in my "Portfolio" repository ([link](https://github
    
    [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project1.3.jpg)
   
-  **Project 1 powerpoint:**  [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pptx)
+  **Project 1 powerpoint:**  
+  [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pptx)
   
   
 
