@@ -7,7 +7,7 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
 
   *Dataset was provided by the Coursera Google data analytics course:* I selected the *divvy trip 2018 quarter 2* dataset.
    
-   [Link to course](https://www.coursera.org/learn/google-data-analytics-capstone)
+  [Link to course](https://www.coursera.org/learn/google-data-analytics-capstone)
   
   **Project 1 code:**
   
