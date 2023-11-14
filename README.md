@@ -12,16 +12,15 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   **Project 1 code:** [Here](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)
   
   
- 
   **Project 1 visuals:**
    
-   https://github.com/Scara98/Portfolio/blob/main/Project1.jpg
+   [Visual 1](https://github.com/Scara98/Portfolio/blob/main/Project1.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project1.1.jpg
+   [Visual 2](https://github.com/Scara98/Portfolio/blob/main/Project1.1.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project1.2.jpg
+   [Visual 3](https://github.com/Scara98/Portfolio/blob/main/Project1.2.jpg)
    
-   https://github.com/Scara98/Portfolio/blob/main/Project1.3.jpg
+   [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project1.3.jpg)
   
   **Project 1 powerpoint:** 
   
