@@ -10,7 +10,7 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   
   **Project 1 code:**
   
-  [Code](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)
+  https://github.com/Scara98/Portfolio/blob/main/Project%201%20code
  
   **Project 1 visuals:**
    
