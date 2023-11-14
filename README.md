@@ -31,7 +31,7 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
 
   *Dataset was found on the kaggle website and was created by Daniel Grijalvas:* 
   
-  [Link](https://www.kaggle.com/datasets/danielgrijalvas/movies)
+ [Link](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
  
   **Project 2 code:** 
@@ -60,17 +60,17 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
   
    B24012 | Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over
    
-   [Link:](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
+  [Link:](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
   
   *Job occupations held by people datasets were found on Census website:*
   
    B24010B | Sex by Occupation for the Civilian Employed Population 16 Years and Over (Black or African American Alone)
   
-   [Link](https://data.census.gov/table/ACSDT1Y2022.B24010B?q=United+States&t=Black+or+African+American:Employment)
+  [Link](https://data.census.gov/table/ACSDT1Y2022.B24010B?q=United+States&t=Black+or+African+American:Employment)
     
    B24010A | Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone)
   
-   [Link](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
+  [Link](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
 
    
    **Project 3 notes:** 
