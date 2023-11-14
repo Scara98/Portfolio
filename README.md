@@ -60,13 +60,13 @@ I have three projects listed in my "Portfolio" repository (link to repository- h
    
    Project 3 visuals:
     
-    https://github.com/Scara98/Portfolio/blob/main/Project3.jpg
+   https://github.com/Scara98/Portfolio/blob/main/Project3.jpg
     
-    https://github.com/Scara98/Portfolio/blob/main/Project3.1.jpg
+   https://github.com/Scara98/Portfolio/blob/main/Project3.1.jpg
     
-    https://github.com/Scara98/Portfolio/blob/main/Project3.2.jpg
+   https://github.com/Scara98/Portfolio/blob/main/Project3.2.jpg
     
-    https://github.com/Scara98/Portfolio/blob/main/Project3.3.jpg
+   https://github.com/Scara98/Portfolio/blob/main/Project3.3.jpg
    
    Project 3 powerpoint- https://github.com/Scara98/Portfolio/blob/main/Capstone3_pp.pptx
 
