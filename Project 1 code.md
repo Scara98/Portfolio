@@ -56,6 +56,7 @@ WHERE usertype = 'Subscriber'
 GROUP BY birthyear, gender, usertype
 ORDER BY count_of_people desc;
 ```
+![Project1_img4](https://github.com/Scara98/Portfolio/assets/150705975/d4e3ed50-cf48-47a9-8ab9-a7351e469442)
 
 
 ```SQL
@@ -70,6 +71,7 @@ WHERE usertype = 'Customer'
 GROUP BY birthyear, gender, usertype
 ORDER BY count_of_people desc;
 ```
+![Project1_img5](https://github.com/Scara98/Portfolio/assets/150705975/1a3cc7d7-ac74-4d25-8d4e-92bdee65ec7f)
 
 
 ```SQL
@@ -83,6 +85,7 @@ FROM divvy_trips
 GROUP BY usertype, gender
 ORDER BY usertype, gender;
 ```
+![Project1_img6](https://github.com/Scara98/Portfolio/assets/150705975/c270db5d-f901-4f10-8700-010e62f9c639)
 
 
 ```SQL
@@ -95,6 +98,7 @@ WHERE usertype = 'Subscriber'
 GROUP BY day_of_week
 ORDER BY day_of_week asc;
 ```
+![Project1_img7](https://github.com/Scara98/Portfolio/assets/150705975/3704ff98-44d6-435d-b5a3-6b0a8da95305)
 
 ```SQL
 -- Count number of customer usertypes that use bikes every day of the week
@@ -106,4 +110,5 @@ WHERE usertype = 'Customer'
 GROUP BY day_of_week
 ORDER BY day_of_week asc;
 ```
+![Project1_img8](https://github.com/Scara98/Portfolio/assets/150705975/ff23175b-d66d-423f-8819-aeebaa159c8e)
 
