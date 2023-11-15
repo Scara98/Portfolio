@@ -41,6 +41,7 @@ FROM divvy_trips
 GROUP BY
   usertype;
 ```
+![Project1_img3](https://github.com/Scara98/Portfolio/assets/150705975/0cf5e059-3aa9-4916-afdd-d8fd1b8cffb5)
 
 ```SQL
 -- Count number of subscriber usertypes born each year by gender
