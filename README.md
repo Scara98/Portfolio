@@ -67,13 +67,7 @@ I have three projects listed in my "Portfolio" repository ([link](https://github
    
    **Project 3 visuals:**
     
-   [Visual 1](https://github.com/Scara98/Portfolio/blob/main/Project3.jpg)
-    
-   [Visual 2](https://github.com/Scara98/Portfolio/blob/main/Project3.1.jpg)
-    
-   [Visual 3](https://github.com/Scara98/Portfolio/blob/main/Project3.2.jpg)
-    
-   [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project3.3.jpg)
+   [Visuals Link Here](https://github.com/Scara98/Portfolio/blob/main/Project%203%20images.md)
    
    **Project 3 powerpoint:** [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone3_pp.pdf)
    
