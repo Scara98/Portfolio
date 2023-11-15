@@ -12,11 +12,11 @@ I have three projects listed in my "Portfolio" repository ([link](https://github
   **Project 1 [code](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)** 
   
   
-  **Project 1 visuals:**
+  **Project 1 [visuals](https://github.com/Scara98/Portfolio/blob/main/Project%201%20images.md)**
    
-   [Visuals Link Here](https://github.com/Scara98/Portfolio/blob/main/Project%201%20images.md)
   
-  **Project 1 powerpoint:**  [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pdf)
+  
+  **Project 1 [powerpoint](https://github.com/Scara98/Portfolio/blob/main/Capstone1_pp.pdf)**  
   
   
 
