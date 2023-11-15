@@ -20,12 +20,10 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
 
 ### **Project 2**- Figuring out what factors contribute to a best selling movie.
 
- **Dataset was found on the kaggle website, named "Movie Industry" and created by Daniel Grijalvas:** 
+ **Dataset was found on the kaggle website, named "[Movie Industry](https://www.kaggle.com/datasets/danielgrijalvas/movies)" and created by Daniel Grijalvas** 
   
- [Link](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
- 
-**Project 2 [code](https://github.com/Scara98/Portfolio/blob/main/Project%202%20code)**
+ **Project 2 [code](https://github.com/Scara98/Portfolio/blob/main/Project%202%20code)**
   
 **Project 2 [visuals](https://github.com/Scara98/Portfolio/blob/main/Project%202%20images.md)**
  
@@ -39,19 +37,14 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
  
  **Job occupation median pay dataset was found on Census website:** 
   
-   B24012 | Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over
+   [B24012 | Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
    
-  [Link](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
   
  **Job occupations held by people datasets were found on Census website:**
   
-   B24010B | Sex by Occupation for the Civilian Employed Population 16 Years and Over (Black or African American Alone)
-  
-  [Link](https://data.census.gov/table/ACSDT1Y2022.B24010B?q=United+States&t=Black+or+African+American:Employment)
+   [B24010B | Sex by Occupation for the Civilian Employed Population 16 Years and Over (Black or African American Alone)](https://data.census.gov/table/ACSDT1Y2022.B24010B?q=United+States&t=Black+or+African+American:Employment)
     
-   B24010A | Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone)
-  
-  [Link](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
+   [B24010A | Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone)](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
 
    
    **Project 3 [notes](https://github.com/Scara98/Portfolio/blob/main/Project%203%20documentation)**
