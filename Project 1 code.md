@@ -31,6 +31,7 @@ SET trip_id = COALESCE(trip_id, '0'),
        gender = COALESCE(gender, 'N/A'),
        birthyear = COALESCE(birthyear, '0');
 ```
+![Project1_img2](https://github.com/Scara98/Portfolio/assets/150705975/00dc75c8-1501-4773-b2ad-7d80b732cb84)
 
 ```SQL
 -- Calculate average trip time for different usertypes
