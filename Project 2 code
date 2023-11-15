@@ -1,5 +1,4 @@
 ```python
-In python:
 import pandas as pd
 
 # Read the CSV file into a Pandas 
@@ -18,7 +17,6 @@ df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
 
 ```R
-In Rstudio:
 
 df2 <- read.csv("C:\\Users\\klb81\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
 
