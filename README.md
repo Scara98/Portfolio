@@ -1,13 +1,12 @@
 Kristen Bianchi
 # About me
 # Data Analyst Projects
-I have three projects listed in my "Portfolio" repository ([link](https://github.com/Scara98/Portfolio/tree/main)):
+I have three projects listed in my "Portfolio" [repository](https://github.com/Scara98/Portfolio/tree/main):
 
 ### **Project 1**- Determining differences between Subscribed customers and casual customers of citibikes. 
 
- **Dataset was provided by the Coursera Google data analytics course:** I selected the *divvy trip 2018 quarter 2* dataset.
+ **Dataset was provided by the Coursera [Google data analytics capstone course](https://www.coursera.org/learn/google-data-analytics-capstone):** I selected the *divvy trip 2018 quarter 2* dataset.
    
-  [Link to course](https://www.coursera.org/learn/google-data-analytics-capstone)
   
   **Project 1 [code](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)** 
   
