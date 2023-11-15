@@ -14,7 +14,7 @@ create table divvy_trips (trip_id numeric,
 						 birthyear numeric);
 ```
 
-```
+```SQL
 -- Replace any null values with identifiable values
 UPDATE divvy_trips
 SET trip_id = COALESCE(trip_id, '0'),
@@ -31,7 +31,7 @@ SET trip_id = COALESCE(trip_id, '0'),
        birthyear = COALESCE(birthyear, '0');
 ```
 
-```
+```SQL
 -- Calculate average trip time for different usertypes
 SELECT
   usertype,
@@ -41,7 +41,7 @@ GROUP BY
   usertype;
 ```
 
-```
+```SQL
 -- Count number of subscriber usertypes born each year by gender
 SELECT
   birthyear,
@@ -55,7 +55,7 @@ ORDER BY count_of_people desc;
 ```
 
 
-```
+```SQL
 -- Count number of customer usertypes born each year by gender
 SELECT
   birthyear,
@@ -69,7 +69,7 @@ ORDER BY count_of_people desc;
 ```
 
 
-```
+```SQL
 -- Count number of each gender in each usertype
 SELECT
   usertype,
@@ -82,7 +82,7 @@ ORDER BY usertype, gender;
 ```
 
 
-```
+```SQL
 -- Count number of subscriber usertypes that use bikes every day of the week
 SELECT
   COUNT(usertype) AS num_users,
@@ -93,7 +93,7 @@ GROUP BY day_of_week
 ORDER BY day_of_week asc;
 ```
 
-```
+```SQL
 -- Count number of customer usertypes that use bikes every day of the week
 SELECT
   COUNT(usertype) AS num_users,
