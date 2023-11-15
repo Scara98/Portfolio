@@ -9,7 +9,7 @@ I have three projects listed in my "Portfolio" repository ([link](https://github
    
   [Link to course](https://www.coursera.org/learn/google-data-analytics-capstone)
   
-  **Project 1 code:** [Here](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)
+  **Project 1 [code](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)** 
   
   
   **Project 1 visuals:**
