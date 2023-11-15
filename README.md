@@ -34,15 +34,7 @@ I have three projects listed in my "Portfolio" repository ([link](https://github
   
   **Project 2 visuals:**
   
-   [Visual 1](https://github.com/Scara98/Portfolio/blob/main/Project2.jpg)
-  
-   [Visual 2](https://github.com/Scara98/Portfolio/blob/main/Project2.1.jpg)
-   
-   [Visual 3](https://github.com/Scara98/Portfolio/blob/main/Project2.2.jpg)
-   
-   [Visual 4](https://github.com/Scara98/Portfolio/blob/main/Project2.3.jpg)
-   
-   [Visual 5](https://github.com/Scara98/Portfolio/blob/main/Project2.4.jpg)
+   [Visuals Link Here](https://github.com/Scara98/Portfolio/blob/main/Project%202%20images.md)
  
  **Project 2 powerpoint:** [Here](https://github.com/Scara98/Portfolio/blob/main/Capstone2_pp.pdf)
  
