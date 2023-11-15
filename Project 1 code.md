@@ -1,3 +1,4 @@
+```
 --PostgreSQL:
 -- Make a table to import data into
 create table divvy_trips (trip_id numeric,
@@ -12,6 +13,7 @@ create table divvy_trips (trip_id numeric,
 						 usertype text,
 						 gender text,
 						 birthyear numeric);
+```
 
 
 -- Replace any null values with identifiable values
