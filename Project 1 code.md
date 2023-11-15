@@ -1,5 +1,4 @@
-```
-PostgreSQL:
+```SQL
 -- Make a table to import data into
 create table divvy_trips (trip_id numeric,
 						 start_time timestamp,
