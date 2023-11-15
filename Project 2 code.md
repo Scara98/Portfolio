@@ -1,5 +1,5 @@
+## Python code
 ``` python
-#In python
 import pandas as pd
 
 # Read the CSV file into a Pandas 
@@ -17,6 +17,7 @@ df.drop('released', axis=1, inplace=True)
 df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
 
+## R Code
 ``` R
 
 df2 <- read.csv("C:\\Users\\klb81\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
@@ -67,9 +68,9 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 ```
 
 
-## Create tables that show average gross for different columns ##
-
 ```R
+## Create table that shows average gross for rating ##
+
 # Define column to calculate
 rating_avg_gross <- df_filtered2 %>% group_by(rating)
 
@@ -85,6 +86,8 @@ view (rating_avg_gross)
 ```
 
 ```R
+## Create table that shows average gross for genre ##
+
 # Define column to calculate
 genre_avg_gross <- df_filtered2 %>% group_by(genre)
 
@@ -100,6 +103,8 @@ view(genre_avg_gross)
 ```
 
 ```R
+## Create table that shows average gross for month ##
+
 # Define column to calculate
 month_avg_gross <- df_filtered2 %>% group_by(released_month)
 
