@@ -1,3 +1,4 @@
+```python
 In python:
 import pandas as pd
 
@@ -14,15 +15,16 @@ df.drop('released', axis=1, inplace=True)
 
 # Write the updated DataFrame to a new CSV file
 df.to_csv('my_new_csv_file.csv', index=False, header=True)
+```
 
-
-
+```R
 In Rstudio:
 
 df2 <- read.csv("C:\\Users\\klb81\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
 
 library(dplyr)
 library(tidyverse)
+```
 
 # Create a copy of the data frame
 df_copy2 <- df2
