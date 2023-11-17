@@ -15,6 +15,7 @@
 						 birthyear numeric);
 ```
 ![Project1_img](https://github.com/Scara98/Portfolio/assets/150705975/458fa299-b793-4777-9e91-da34e5812d4f)
+![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/689b22d6-0c44-45c5-b1c9-31073f28583d)
 
 ```SQL
 -- Replace any null values with identifiable values
