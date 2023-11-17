@@ -73,7 +73,10 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 ## Result 0.74041
 ```
 ![Project2_img5](https://github.com/Scara98/Portfolio/assets/150705975/9b4e0f43-0e3b-4f26-add4-54d64691cd20)
+
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/4ec05815-cd4f-41c4-bd87-a5a32b76c61e)
+
+Using Rstudio, the *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation.
 
 
 ```R
@@ -129,7 +132,24 @@ month_avg_gross <- month_avg_gross %>% summarise(avg_gross = mean(gross))
 view(month_avg_gross)
 ```
 ![Project2_img8](https://github.com/Scara98/Portfolio/assets/150705975/c85b697f-32d6-4dcc-81a4-1f0fa065b391)
+
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/df44265b-69cd-489e-8b5b-62c1ee9711b2)
+
+The top three highest average grossing months:
+
+May(169M)
+June(167M)
+December(154M)
+
+
+
+The bottom three average grossing months:
+
+January(63M)
+October(60M)
+September(54M)
+
+
 
 ```R
 # Table to show number of movies released per month by genre
@@ -148,6 +168,43 @@ genre_sum_by_month <- df_filtered2 %>%
 view(genre_sum_by_month)
 ```
 ![Project2_img10](https://github.com/Scara98/Portfolio/assets/150705975/31455de3-67b9-4676-8051-469446e11666)
+
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/8d4fefb5-f237-4600-b57c-c72c7806751e)
+
+Action made 65% of the profit and 37% of the movies released.
+Animation made 11% of the profit and 4% of the movies released.
+Comedy made 13% of the profit and 26% of the movies released.
+Adventure made 4% of the profit and 6% of the movies released. 
+Drama made 3% of the profit and 14% of the movies released.
+Horror made 1% of the profit and 4% of the movies released.
+Crime made 1% of the profit and 5% of the movies released.
+Biography made 0.8% of the profit and 3% of the movies released.
+Fantasy made 0.02% of profit and 0.5% of the movies released.
+
+
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/b6991709-36d5-495a-b080-e9fb4c2e365e)
+
+Action made 47% of the profit and 35% of the movies released.
+Animation made 25% of the profit and 10% of the movies released.
+Comedy made 16% of the profit and 29% of the movies released.
+Drama made 4% of the profit and 11% of the movies released.
+Adventure made 4% of the profit and 4% of the movies released.
+Horror made 1% of the profit and 4% of the movies released.
+Crime made 1% of the profit and 4% of the movies released.
+Biography made 0.5% of the profit and 3% of  the movies released.
+Fantasy made 0.2% of the profit and 0.2% of the movies released.
+
+
 ![Pic5](https://github.com/Scara98/Portfolio/assets/150705975/e743a6dc-c146-4be2-b1e1-c0bc3a20a374)
+
+Action made 36% of the profit and 21% of the movies released
+Comedy made 18% of the profit and 31% of the  movies released.
+Drama made 14% of the profit and 18% of the movies released.
+Adventure made 13% of the profit and 9% of the movies released.
+Biography made 7% of the profit and 9% of the movies released.
+Animation made 6% of the profit and 4% of the movies released.
+Crime made 4% of the profit and 6% of the movies released.
+Horror made 0.8% of the profit and 3% of the movies released.
+Fantasy made 0.3% of the profit and 0.4% of the movies released.
+
+
