@@ -15,7 +15,7 @@
 						 birthyear numeric);
 ```
 ![Project1_img](https://github.com/Scara98/Portfolio/assets/150705975/458fa299-b793-4777-9e91-da34e5812d4f)
-![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/689b22d6-0c44-45c5-b1c9-31073f28583d)
+
 
 ```SQL
 -- Replace any null values with identifiable values
@@ -45,7 +45,7 @@ GROUP BY
   usertype;
 ```
 ![Project1_img3](https://github.com/Scara98/Portfolio/assets/150705975/0cf5e059-3aa9-4916-afdd-d8fd1b8cffb5)
-
+![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/689b22d6-0c44-45c5-b1c9-31073f28583d)
 ```SQL
 -- Count number of subscriber usertypes born each year by gender
 SELECT
@@ -75,7 +75,7 @@ ORDER BY count_of_people desc;
 ```
 ![Project1_img5](https://github.com/Scara98/Portfolio/assets/150705975/1a3cc7d7-ac74-4d25-8d4e-92bdee65ec7f)
 
-
+![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/c2931a57-abcb-490f-8e7d-d77cb1c55516)
 ```SQL
 -- Count number of each gender in each usertype
 SELECT
@@ -88,6 +88,8 @@ GROUP BY usertype, gender
 ORDER BY usertype, gender;
 ```
 ![Project1_img6](https://github.com/Scara98/Portfolio/assets/150705975/c270db5d-f901-4f10-8700-010e62f9c639)
+
+![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/e8a8794f-3bd8-48d5-9be7-486fbb07656d)
 
 
 ```SQL
@@ -113,4 +115,5 @@ GROUP BY day_of_week
 ORDER BY day_of_week asc;
 ```
 ![Project1_img8](https://github.com/Scara98/Portfolio/assets/150705975/ff23175b-d66d-423f-8819-aeebaa159c8e)
+![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/d5c22d4f-c682-488d-89a3-45833d34fa36)
 
