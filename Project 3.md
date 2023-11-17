@@ -7,3 +7,7 @@ Calculate percent of black males and black females in each occupation using blac
 Create a new dataset that has columns that contain occupation, median earnings, sex, race, and percent of people in occupation
 Split new dataset into four, splitting them by sex and race(white male, black male, white female, black female)
 Use new dataset to compare median earning occupation of men versus women by dividing women median earning by men median earning for each listed job occupation then calculate average of these differences
+![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/061c87c5-c990-4611-97ff-7d40b46593a0)
+![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/636936e1-2d33-441b-8e04-3714688738a7)
+![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/0180c013-290f-4ef9-8881-6c646c69417e)
+![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/8b3fd3fa-bc0e-43b5-a5e2-a3f73f4730dc)
