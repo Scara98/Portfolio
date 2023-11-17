@@ -3,7 +3,7 @@ Remove all annotation and margin of error columns from occupation earnings datas
 Remove all annotation and margin of error columns from white job occupation dataset
 Remove all annotation and margin of error columns from black job occupation dataset
 Calculate percent of white males and white females in each occupation using white job occupation dataset
-Calculate percent of black males and black females in each occupation using white job occupation dataset
+Calculate percent of black males and black females in each occupation using black job occupation dataset
 Create a new dataset that has columns that contain occupation, median earnings, sex, race, and percent of people in occupation
 Split new dataset into four, splitting them by sex and race(white male, black male, white female, black female)
 Use new dataset to compare median earning occupation of men versus women by dividing women median earning by men median earning for each listed job occupation then calculate average of these differences
