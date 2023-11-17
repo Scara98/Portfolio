@@ -1,4 +1,7 @@
 ## Python code
+
+#### Split the Country and date in the released date column
+
 ``` python
 import pandas as pd
 
@@ -18,6 +21,9 @@ df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
 
 ## R Code
+
+#### View the data
+
 ``` R
 
 df2 <- read.csv("C:\\Users\\klb81\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
@@ -26,6 +32,8 @@ library(dplyr)
 library(tidyverse)
 ```
 ![Project2_img](https://github.com/Scara98/Portfolio/assets/150705975/c7911f1d-c20c-40b8-90fc-bd270d590473)
+
+#### Clean up the data
 
 ```R
 # Create a copy of the data frame
@@ -40,6 +48,8 @@ df_filtered2 <- df_filtered2[, !(names(df_filtered2) == "year")]
 ```
 ![Project2_img2](https://github.com/Scara98/Portfolio/assets/150705975/707689bc-3c5d-4d1a-b32b-d0002d751222)
 
+#### Add a column for released date month
+
 ```R
 # Convert the "released_date" column to Date
 df_filtered2$released_date <- as.Date(df_filtered2$released_date, format = "%m/%d/%y")
@@ -48,6 +58,8 @@ df_filtered2$released_date <- as.Date(df_filtered2$released_date, format = "%m/%
 df_filtered2$released_month <- format(df_filtered2$released_date, format = "%B")
 ```
 ![Project2_img3](https://github.com/Scara98/Portfolio/assets/150705975/c743f46f-6016-486b-bb10-1784bea9a8e8)
+
+#### Organize the data into an order that is more appeasing
 
 ```R
 # Rearrange order of columns
@@ -58,8 +70,9 @@ df_filtered2 <- df_filtered2[, new_column_order]
 ```
 ![Project2_img4](https://github.com/Scara98/Portfolio/assets/150705975/5fb70734-6c6f-4bcd-8d2b-1672b3202198)
 
+#### Run some correlations
+
 ```R
-# Run correlations
 runtime <- cor(df_filtered2$gross, df_filtered2$runtime)
 ## Result 0.2755963
 
@@ -78,6 +91,7 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 
 Using Rstudio, the *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation.
 
+#### Create multiple tables that compare average gross for different variables
 
 ```R
 ## Create table that shows average gross for rating ##
@@ -149,18 +163,18 @@ January(63M)
 October(60M)
 September(54M)
 
-
+#### Table to show number of movies released per month by genre
 
 ```R
-# Table to show number of movies released per month by genre
 genre_by_month<- table(df_filtered2$released_month, df_filtered2$genre)
 
 view(genre_by_month)
 ```
 ![Project2_img9](https://github.com/Scara98/Portfolio/assets/150705975/98a9c812-c1c5-41b0-b2de-c69fbe025922)
 
+#### Table to show month gross sum by genre
+
 ```R
-# Table to show month gross sum by genre
 genre_sum_by_month <- df_filtered2 %>%
   group_by(genre, released_month) %>%
   summarize(total_gross = sum(gross))
