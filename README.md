@@ -8,11 +8,9 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
  **Dataset was provided by the Coursera [Google data analytics capstone course](https://www.coursera.org/learn/google-data-analytics-capstone):** I selected the *divvy trip 2018 quarter 2* dataset.
    
   
-  **Project 1 [code](https://github.com/Scara98/Portfolio/blob/main/Project%201%20code)** 
+  **[Project 1](https://github.com/Scara98/Portfolio/blob/main/Project%201%20.md)** 
   
-  **Project 1 [visuals](https://github.com/Scara98/Portfolio/blob/main/Project%201%20images.md)**
-   
-  **Project 1 [powerpoint](https://github.com/Scara98/Portfolio/blob/main/Project%201_pp.pdf)**  
+  
   
   
 
