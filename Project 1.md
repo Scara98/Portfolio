@@ -101,6 +101,8 @@ ORDER BY usertype, gender;
 
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/e8a8794f-3bd8-48d5-9be7-486fbb07656d)
 
+Males make up **75%** of Annual Subscribers and **61%** of all cyclists.
+
 #### Count number of subscriber usertypes that use bikes every day of the week
 
 ```SQL
@@ -126,5 +128,9 @@ GROUP BY day_of_week
 ORDER BY day_of_week asc;
 ```
 ![Project1_img8](https://github.com/Scara98/Portfolio/assets/150705975/ff23175b-d66d-423f-8819-aeebaa159c8e)
+
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/d5c22d4f-c682-488d-89a3-45833d34fa36)
+
+Annual Subscribers made up **85%** of weekday rides.
+Annual Subscribers only made up **61%** of the rides during the weekend.
 
