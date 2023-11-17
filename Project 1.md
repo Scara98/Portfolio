@@ -44,8 +44,11 @@ GROUP BY
   usertype;
 ```
 ![Project1_img3](https://github.com/Scara98/Portfolio/assets/150705975/0cf5e059-3aa9-4916-afdd-d8fd1b8cffb5)
+
+
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/981214df-25c6-4bb7-ab6f-eb25647dffd0)
 
+*Annual Subscribers'* average trip time is 14 minutes whereas *Casual Riders'* average trip time is 64 minutes.
 
 #### Count number of subscriber usertypes born each year by gender
 ```SQL
@@ -76,7 +79,11 @@ ORDER BY count_of_people desc;
 ```
 ![Project1_img5](https://github.com/Scara98/Portfolio/assets/150705975/1a3cc7d7-ac74-4d25-8d4e-92bdee65ec7f)
 
+
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/c2931a57-abcb-490f-8e7d-d77cb1c55516)
+
+**44%** of Annual Subscribers are ages 25-35
+**43%** of Casual Riders are ages 25-35
 
 #### Count number of each gender in each usertype
 
