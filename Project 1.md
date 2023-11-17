@@ -1,6 +1,6 @@
 ## PostgreSQL Code
+### Make a table to import data into
 ```SQL
--- Make a table to import data into
                        create table divvy_trips (trip_id numeric,
 						 start_time timestamp,
 						 end_time timestamp,
