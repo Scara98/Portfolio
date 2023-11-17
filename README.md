@@ -8,8 +8,8 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
  **Dataset was provided by the Coursera [Google data analytics capstone course](https://www.coursera.org/learn/google-data-analytics-capstone):** I selected the *divvy trip 2018 quarter 2* dataset.
    
   
-  **[Project 1](https://github.com/Scara98/Portfolio/blob/main/Project%201%20.md)** 
-  
+  **[Project 1](https://github.com/Scara98/Portfolio/blob/main/Project%201.md)** 
+
   
   
   
@@ -21,11 +21,8 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
  **Dataset was found on the kaggle website, named "[Movie Industry](https://www.kaggle.com/datasets/danielgrijalvas/movies)" and created by Daniel Grijalvas** 
   
 
- **Project 2 [code](https://github.com/Scara98/Portfolio/blob/main/Project%202%20code)**
-  
-**Project 2 [visuals](https://github.com/Scara98/Portfolio/blob/main/Project%202%20images.md)**
- 
-**Project 2 [powerpoint](https://github.com/Scara98/Portfolio/blob/main/Project%202_pp.pdf)**
+ **[Project 2](https://github.com/Scara98/Portfolio/blob/main/Project%202.md)**
+
  
  
 
@@ -45,11 +42,9 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
 [B24010A Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone)](https://data.census.gov/table/ACSDT1Y2022.B24010A?q=United+States&t=Employment:White)
 
    
-   **Project 3 [notes](https://github.com/Scara98/Portfolio/blob/main/Project%203%20documentation)**
+   **[Project 3](https://github.com/Scara98/Portfolio/blob/main/Project%203%.md)**
    
-   **Project 3 [visuals](https://github.com/Scara98/Portfolio/blob/main/Project%203%20images.md)**
-   
-   **Project 3 [powerpoint](https://github.com/Scara98/Portfolio/blob/main/Project%203_pp.pdf)**
+ 
    
   
 
