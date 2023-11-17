@@ -11,4 +11,4 @@ Use new dataset to compare median earning occupation of men versus women by divi
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/636936e1-2d33-441b-8e04-3714688738a7)
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/0180c013-290f-4ef9-8881-6c646c69417e)
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/8b3fd3fa-bc0e-43b5-a5e2-a3f73f4730dc)
-![Testpic](https://github.com/Scara98/Portfolio/assets/150705975/2772f425-fd13-4959-a034-be2309d1e1e0)
+
