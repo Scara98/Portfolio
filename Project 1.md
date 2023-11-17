@@ -44,7 +44,8 @@ GROUP BY
   usertype;
 ```
 ![Project1_img3](https://github.com/Scara98/Portfolio/assets/150705975/0cf5e059-3aa9-4916-afdd-d8fd1b8cffb5)
-![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/689b22d6-0c44-45c5-b1c9-31073f28583d)
+![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/981214df-25c6-4bb7-ab6f-eb25647dffd0)
+
 
 #### Count number of subscriber usertypes born each year by gender
 ```SQL
