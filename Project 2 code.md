@@ -73,6 +73,7 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 ## Result 0.74041
 ```
 ![Project2_img5](https://github.com/Scara98/Portfolio/assets/150705975/9b4e0f43-0e3b-4f26-add4-54d64691cd20)
+![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/4ec05815-cd4f-41c4-bd87-a5a32b76c61e)
 
 
 ```R
@@ -128,6 +129,7 @@ month_avg_gross <- month_avg_gross %>% summarise(avg_gross = mean(gross))
 view(month_avg_gross)
 ```
 ![Project2_img8](https://github.com/Scara98/Portfolio/assets/150705975/c85b697f-32d6-4dcc-81a4-1f0fa065b391)
+![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/df44265b-69cd-489e-8b5b-62c1ee9711b2)
 
 ```R
 # Table to show number of movies released per month by genre
@@ -146,3 +148,6 @@ genre_sum_by_month <- df_filtered2 %>%
 view(genre_sum_by_month)
 ```
 ![Project2_img10](https://github.com/Scara98/Portfolio/assets/150705975/31455de3-67b9-4676-8051-469446e11666)
+![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/8d4fefb5-f237-4600-b57c-c72c7806751e)
+![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/b6991709-36d5-495a-b080-e9fb4c2e365e)
+![Pic5](https://github.com/Scara98/Portfolio/assets/150705975/e743a6dc-c146-4be2-b1e1-c0bc3a20a374)
