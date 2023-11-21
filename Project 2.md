@@ -209,8 +209,8 @@ view(genre_sum_by_month)
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/8d4fefb5-f237-4600-b57c-c72c7806751e)
 
 * Action made 65% of the profit and 37% of the movies released.
-* Animation made 11% of the profit and 4% of the movies released.
 * Comedy made 13% of the profit and 26% of the movies released.
+* Animation made 11% of the profit and 4% of the movies released.
 * Adventure made 4% of the profit and 6% of the movies released. 
 * Drama made 3% of the profit and 14% of the movies released.
 * Horror made 1% of the profit and 4% of the movies released.
