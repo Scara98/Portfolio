@@ -1,3 +1,13 @@
+## Project objective
+This capstone project was given to me by the Google Data Analytics course on Coursera. The made up company they made for the scenario
+is called Cyclistic which is a bike-share company based in Chicago. Cyclistic's director of marketing wants to determine how Casual Riders 
+and Annual Members differ in their use of Cyclist bikes. Casual riders pay per ride for the citibike or per day whereas Annual members pay a fixed amount every year.
+The director then wants to use the discovered information to create marketing strategies that will help convert Casual riders to Annual members.
+
+## Project Data Source
+[Google Data Analytics course](https://www.coursera.org/professional-certificates/google-data-analytics) on Coursera provided: The divvy trip 2018 Quarter 2 dataset
+
+
 ## PostgreSQL Code
 #### Make a table to import data into
 ```SQL
@@ -129,8 +139,19 @@ ORDER BY day_of_week asc;
 ```
 ![Project1_img8](https://github.com/Scara98/Portfolio/assets/150705975/ff23175b-d66d-423f-8819-aeebaa159c8e)
 
+
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/d5c22d4f-c682-488d-89a3-45833d34fa36)
 
 Annual Subscribers made up **85%** of weekday rides.
 Annual Subscribers only made up **61%** of the rides during the weekend.
+
+## Project Conclusions
+Males between ages 25-35 are the majority rider type for Annual Subscribers.
+Casual Riders mostly use bikes on weekends whereas Annual Subscribers mostly use them during the weekdays.
+Annual Subscribers use bikes for short periods of time whereas Casual Riders use bikes for long periods of time.
+
+## Recommendations
+Target audience should be males 25-35
+Create annual subscription that is cheaper but only allows use on weekends
+Put advertisements on social media used by targeted demographic 
 
