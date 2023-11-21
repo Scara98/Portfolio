@@ -21,6 +21,8 @@ Job occupations held by people datasets were found on Census website:
 View occupation earnings dataset
 ![Project3_img](https://github.com/Scara98/Portfolio/assets/150705975/dc4a5620-a47e-4cba-acc9-c66d25bd6459)
 
+This data set does split the median pay for occupation by sex but it does not split it by race. I could not find a Census data set that split the occupation median pay by race as well as sex.
+
 View white job occupation dataset
 ![Project3_img2](https://github.com/Scara98/Portfolio/assets/150705975/fdd11ded-8ef5-4bfe-a8c2-85880fd7d9c2)
 
