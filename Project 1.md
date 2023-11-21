@@ -47,6 +47,24 @@ SET trip_id = COALESCE(trip_id, '0'),
 ```
 ![Project1_img2](https://github.com/Scara98/Portfolio/assets/150705975/00dc75c8-1501-4773-b2ad-7d80b732cb84)
 
+#### Calculate how many Subscriber usertypes there are
+```SQL
+SELECT
+  COUNT(usertype) AS Subscribed
+ FROM divvy_trips
+WHERE usertype = 'Subscriber'
+```
+![Project1_img9](https://github.com/Scara98/Portfolio/assets/150705975/96ac0375-229e-4b3e-9c19-d96ce0d2b141)
+
+#### Calculate how many Casual usertypes there are
+```SQL
+SELECT
+  COUNT(usertype) AS Casual
+ FROM divvy_trips
+WHERE usertype = 'Customer'
+```
+![Project1_img10](https://github.com/Scara98/Portfolio/assets/150705975/674f98e6-dbf8-4830-b477-41e268195730)
+
 #### Calculate average trip time for different usertypes
 ```SQL
 SELECT
@@ -61,7 +79,8 @@ GROUP BY
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/981214df-25c6-4bb7-ab6f-eb25647dffd0)
 
-*Annual Subscribers'* average trip time is 14 minutes whereas *Casual Riders'* average trip time is 64 minutes.
+This visual represents the difference between citibike users' average trip time. *Annual Subscribers'* average trip time is 14 minutes whereas *Casual Riders'* average trip time is 64 minutes. 
+This shows there is quite a large gap between their average trip times.
 
 #### Count number of subscriber usertypes born each year by gender
 ```SQL
@@ -95,8 +114,8 @@ ORDER BY count_of_people desc;
 
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/c2931a57-abcb-490f-8e7d-d77cb1c55516)
 
-**44%** of Annual Subscribers are ages 25-35
-**43%** of Casual Riders are ages 25-35
+The graph shows a clear spike in both male and female users during certain birth years and after calculating, it was discvoered that **44%** of Annual Subscribers are ages 25-35
+
 
 #### Count number of each gender in each usertype
 
@@ -114,7 +133,8 @@ ORDER BY usertype, gender;
 
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/e8a8794f-3bd8-48d5-9be7-486fbb07656d)
 
-Males make up **75%** of Annual Subscribers and **61%** of all cyclists.
+Males make up **75%** of Annual Subscribers and although most Casual riders do not put their gender down and therefore 
+a majority of casual riders are N/A, males still make up **61%** of all cyclists, Casual and Subscriber users all included.
 
 #### Count number of subscriber usertypes that use bikes every day of the week
 
@@ -145,8 +165,10 @@ ORDER BY day_of_week asc;
 
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/d5c22d4f-c682-488d-89a3-45833d34fa36)
 
-Annual Subscribers made up **85%** of weekday rides.
-Annual Subscribers only made up **61%** of the rides during the weekend.
+Annual Subscribers made up **85%** of weekday rides but although they make up 80 percent of all cyclist users in the dataset
+Annual Subscribers only made up **61%** of the rides during the weekend which means the Casual Riders made up **39%** of the rides
+which is almost double their 20 percent makeup of cyclists.
+
 
 ## Project Conclusions
 * Males between ages 25-35 are the majority rider type for Annual Subscribers
