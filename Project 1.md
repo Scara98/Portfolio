@@ -7,6 +7,9 @@ The director then wants to use the discovered information to create marketing st
 ## Project Data Source
 [Google Data Analytics course](https://www.coursera.org/professional-certificates/google-data-analytics) on Coursera provided: The divvy trip 2018 Quarter 2 dataset
 
+## Data Tools Used
+* SQL
+* Tableau
 
 ## PostgreSQL Code
 #### Make a table to import data into
