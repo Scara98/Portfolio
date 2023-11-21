@@ -79,8 +79,8 @@ GROUP BY
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/981214df-25c6-4bb7-ab6f-eb25647dffd0)
 
-This visual represents the difference between citibike users' average trip time. *Annual Subscribers'* average trip time is 14 minutes whereas *Casual Riders'* average trip time is 64 minutes. 
-This shows there is quite a large gap between their average trip times.
+This visual represents the difference between citibike users' average trip time. Annual Subscribers' average trip time is 14 minutes whereas Casual Riders' average trip time is 64 minutes. 
+This shows there is quite a large gap between their average trip times with Casual Riders riding for longer periods at a time.
 
 #### Count number of subscriber usertypes born each year by gender
 ```SQL
@@ -114,7 +114,8 @@ ORDER BY count_of_people desc;
 
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/c2931a57-abcb-490f-8e7d-d77cb1c55516)
 
-The graph shows a clear spike in both male and female users during certain birth years and after calculating, it was discvoered that **44%** of Annual Subscribers are ages 25-35
+The graph shows a clear spike in both male and female users during certain birth years and after calculating, it was discovered
+that **54%** of Annual Subscribers are ages 25-35.
 
 
 #### Count number of each gender in each usertype
