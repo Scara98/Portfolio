@@ -67,23 +67,23 @@ I did this by using the division function in excel for each job field for white 
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/061c87c5-c990-4611-97ff-7d40b46593a0)
 
-* 27% black women work in an occupation where the median income is 50k or more
-* 37% black women work in an occupation where the median income is 31k or less
+* 27% of black women work in an occupation where the median income is 50k or more
+* 37% of black women work in an occupation where the median income is 31k or less
 
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/636936e1-2d33-441b-8e04-3714688738a7)
 
-* 33% white women work in an occupation where the median income is 50k or more
-* 28% white women work in an occupation where the median income is 31k or less
+* 33% of white women work in an occupation where the median income is 50k or more
+* 28% of white women work in an occupation where the median income is 31k or less
 
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/0180c013-290f-4ef9-8881-6c646c69417e)
 
-* 41% black men work in an occupation where the median income is 50k or more
-* 24% black men work in an occupation where the median income is 31k or less
+* 41% of black men work in an occupation where the median income is 50k or more
+* 24% of black men work in an occupation where the median income is 31k or less
 
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/8b3fd3fa-bc0e-43b5-a5e2-a3f73f4730dc)
 
-* 59% white men work in an occupation where the median income is 50k or more
-* 14% white men work in an occupation where the median income is 31k or less
+* 59% of white men work in an occupation where the median income is 50k or more
+* 14% of white men work in an occupation where the median income is 31k or less
 
 ## Data Conclusions
 * White men are 32% more likely than black women, 26% more likely than white women, and 18% more likely than black men to be in occupations whose median earning is 50k or more
