@@ -1,3 +1,15 @@
+## Project Objective
+Using data about movies released from 1980 to 2020 I wanted to figure out if there were certain factors that contributed to a movie being successful at the box office. The dataset includes movie title,
+movie genre, movie rating, movie score, movie votes, writer, director, star, movie company, movie budget, movie gross, runtime, release date, country released in and country origin.
+
+## Data Source
+Dataset was found on the Kaggle website, named "[Movie Industry](https://www.kaggle.com/datasets/danielgrijalvas/movies)" and created by Daniel Grijalvas
+
+## Data tools
+* Python
+* R Studio
+* PowerBI
+
 ## Python code
 
 #### Split the Country and date in the released date column
@@ -19,6 +31,7 @@ df.drop('released', axis=1, inplace=True)
 # Write the updated DataFrame to a new CSV file
 df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
+I split the country from the release date so I could use the date from the column to do any calcualtions that might be necessary. 
 
 ## R Code
 
@@ -48,6 +61,8 @@ df_filtered2 <- df_filtered2[, !(names(df_filtered2) == "year")]
 ```
 ![Project2_img2](https://github.com/Scara98/Portfolio/assets/150705975/707689bc-3c5d-4d1a-b32b-d0002d751222)
 
+I did not find the year column to be neccesary any more because each film already had a released date column that had the year included in the date.
+
 #### Add a column for released date month
 
 ```R
@@ -59,6 +74,8 @@ df_filtered2$released_month <- format(df_filtered2$released_date, format = "%B")
 ```
 ![Project2_img3](https://github.com/Scara98/Portfolio/assets/150705975/c743f46f-6016-486b-bb10-1784bea9a8e8)
 
+I created a released month column so I could see if certain times of the year did better in movie profit than other times during the year.
+
 #### Organize the data into an order that is more appeasing
 
 ```R
@@ -69,6 +86,8 @@ new_column_order <- c("name", "rating", "genre", "runtime", "score", "votes", "b
 df_filtered2 <- df_filtered2[, new_column_order]
 ```
 ![Project2_img4](https://github.com/Scara98/Portfolio/assets/150705975/5fb70734-6c6f-4bcd-8d2b-1672b3202198)
+
+I reorganized the columns' order just so it was in an order that I found easier to work with for me personally.
 
 #### Run some correlations
 
@@ -89,7 +108,7 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/4ec05815-cd4f-41c4-bd87-a5a32b76c61e)
 
-Using Rstudio, the *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation.
+I ran correlations on any column that was numeric so I could see if there were any clear correlations in relation to gross movie income. The *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation. So it is fair to say that budget and gross have a positive correlation. 
 
 #### Create multiple tables that compare average gross for different variables
 
@@ -147,21 +166,25 @@ view(month_avg_gross)
 ```
 ![Project2_img8](https://github.com/Scara98/Portfolio/assets/150705975/c85b697f-32d6-4dcc-81a4-1f0fa065b391)
 
+I calculated the average gross of these general factors: month, genre and rating and did not include writer, director, and star because more data and research would need to be done
+to see if they effect the gross. Maybe some stars, writers, and directors would have high average grossing films in one genre but not another or one time 
+period but not today so to focus on general factors that effect a movie's financial sucess I did not include those factors.
+
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/df44265b-69cd-489e-8b5b-62c1ee9711b2)
 
 The top three highest average grossing months:
 
-May(169M)
-June(167M)
-December(154M)
+* May(169M)
+* June(167M)
+* December(154M)
 
 
 
 The bottom three average grossing months:
 
-January(63M)
-October(60M)
-September(54M)
+* January(63M)
+* October(60M)
+* September(54M)
 
 #### Table to show number of movies released per month by genre
 
@@ -185,40 +208,49 @@ view(genre_sum_by_month)
 
 ![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/8d4fefb5-f237-4600-b57c-c72c7806751e)
 
-Action made 65% of the profit and 37% of the movies released.
-Animation made 11% of the profit and 4% of the movies released.
-Comedy made 13% of the profit and 26% of the movies released.
-Adventure made 4% of the profit and 6% of the movies released. 
-Drama made 3% of the profit and 14% of the movies released.
-Horror made 1% of the profit and 4% of the movies released.
-Crime made 1% of the profit and 5% of the movies released.
-Biography made 0.8% of the profit and 3% of the movies released.
-Fantasy made 0.02% of profit and 0.5% of the movies released.
+* Action made 65% of the profit and 37% of the movies released.
+* Animation made 11% of the profit and 4% of the movies released.
+* Comedy made 13% of the profit and 26% of the movies released.
+* Adventure made 4% of the profit and 6% of the movies released. 
+* Drama made 3% of the profit and 14% of the movies released.
+* Horror made 1% of the profit and 4% of the movies released.
+* Crime made 1% of the profit and 5% of the movies released.
+* Biography made 0.8% of the profit and 3% of the movies released.
+* Fantasy made 0.02% of profit and 0.5% of the movies released.
 
 
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/b6991709-36d5-495a-b080-e9fb4c2e365e)
 
-Action made 47% of the profit and 35% of the movies released.
-Animation made 25% of the profit and 10% of the movies released.
-Comedy made 16% of the profit and 29% of the movies released.
-Drama made 4% of the profit and 11% of the movies released.
-Adventure made 4% of the profit and 4% of the movies released.
-Horror made 1% of the profit and 4% of the movies released.
-Crime made 1% of the profit and 4% of the movies released.
-Biography made 0.5% of the profit and 3% of  the movies released.
-Fantasy made 0.2% of the profit and 0.2% of the movies released.
+* Action made 47% of the profit and 35% of the movies released.
+* Animation made 25% of the profit and 10% of the movies released.
+* Comedy made 16% of the profit and 29% of the movies released.
+* Drama made 4% of the profit and 11% of the movies released.
+* Adventure made 4% of the profit and 4% of the movies released.
+* Horror made 1% of the profit and 4% of the movies released.
+* Crime made 1% of the profit and 4% of the movies released.
+* Biography made 0.5% of the profit and 3% of  the movies released.
+* Fantasy made 0.2% of the profit and 0.2% of the movies released.
 
 
 ![Pic5](https://github.com/Scara98/Portfolio/assets/150705975/e743a6dc-c146-4be2-b1e1-c0bc3a20a374)
 
-Action made 36% of the profit and 21% of the movies released
-Comedy made 18% of the profit and 31% of the  movies released.
-Drama made 14% of the profit and 18% of the movies released.
-Adventure made 13% of the profit and 9% of the movies released.
-Biography made 7% of the profit and 9% of the movies released.
-Animation made 6% of the profit and 4% of the movies released.
-Crime made 4% of the profit and 6% of the movies released.
-Horror made 0.8% of the profit and 3% of the movies released.
-Fantasy made 0.3% of the profit and 0.4% of the movies released.
+* Action made 36% of the profit and 21% of the movies released
+* Comedy made 18% of the profit and 31% of the  movies released.
+* Drama made 14% of the profit and 18% of the movies released.
+* Adventure made 13% of the profit and 9% of the movies released.
+* Biography made 7% of the profit and 9% of the movies released.
+* Animation made 6% of the profit and 4% of the movies released.
+* Crime made 4% of the profit and 6% of the movies released.
+* Horror made 0.8% of the profit and 3% of the movies released.
+* Fantasy made 0.3% of the profit and 0.4% of the movies released.
+
+## Data Conclusions
+
+* The more money you put into your budget, the more money you will get in gross revenue.
+* The best months to release a movie are May, June and December.
+* The worst months to release a movie are in January, October and September.
+* Action movies are the highest grossing genre.
+* On average, Action and Animation movies earn more profit per film.
+* Although Comedy makes high profit, it makes a poor profit per film on average.
 
 
