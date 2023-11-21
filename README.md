@@ -1,8 +1,8 @@
-Kristen Bianchi
-# About me
+# Kristen Bianchi
+## About me
 
 [My Resume](https://github.com/Scara98/Portfolio/blob/main/Resume2023.pdf)
-# Data Analyst Projects
+## Data Analyst Projects
 I have three projects listed in my [Portfolio repository](https://github.com/Scara98/Portfolio/tree/main):
 
    
