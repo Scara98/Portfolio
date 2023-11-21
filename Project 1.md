@@ -12,7 +12,7 @@ The director then wants to use the discovered information to create marketing st
 * Tableau
 
 ## PostgreSQL Code
-#### Make a table to import data into
+#### Make a table to import the data into
 ```SQL
                        create table divvy_trips (trip_id numeric,
 						 start_time timestamp,
@@ -65,7 +65,7 @@ WHERE usertype = 'Customer'
 ```
 ![Project1_img10](https://github.com/Scara98/Portfolio/assets/150705975/674f98e6-dbf8-4830-b477-41e268195730)
 
-#### Calculate average trip time for different usertypes
+#### Calculate the average trip time for different usertypes
 ```SQL
 SELECT
   usertype,
@@ -82,7 +82,7 @@ GROUP BY
 This visual represents the difference between citibike users' average trip time. Annual Subscribers' average trip time is 14 minutes whereas Casual Riders' average trip time is 64 minutes. 
 This shows there is quite a large gap between their average trip times with Casual Riders riding for longer periods at a time.
 
-#### Count number of subscriber usertypes born each year by gender
+#### Count the number of subscriber usertypes born each year by gender
 ```SQL
 SELECT
   birthyear,
@@ -96,7 +96,7 @@ ORDER BY count_of_people desc;
 ```
 ![Project1_img4](https://github.com/Scara98/Portfolio/assets/150705975/d4e3ed50-cf48-47a9-8ab9-a7351e469442)
 
-#### Count number of customer usertypes born each year by gender
+#### Count the number of customer usertypes born each year by gender
 
 ```SQL
 SELECT
@@ -118,7 +118,7 @@ The graph shows a clear spike in both male and female users during certain birth
 that **54%** of Annual Subscribers are ages 25-35.
 
 
-#### Count number of each gender in each usertype
+#### Count the number of each gender in each usertype
 
 ```SQL
 SELECT
@@ -137,7 +137,7 @@ ORDER BY usertype, gender;
 Males make up **75%** of Annual Subscribers and although most Casual riders do not put their gender down and therefore 
 a majority of casual riders are N/A, males still make up **61%** of all cyclists, Casual and Subscriber users all included.
 
-#### Count number of subscriber usertypes that use bikes every day of the week
+#### Count the number of subscriber usertypes that use bikes every day of the week
 
 ```SQL
 SELECT
@@ -150,7 +150,7 @@ ORDER BY day_of_week asc;
 ```
 ![Project1_img7](https://github.com/Scara98/Portfolio/assets/150705975/3704ff98-44d6-435d-b5a3-6b0a8da95305)
 
-#### Count number of customer usertypes that use bikes every day of the week
+#### Count the number of customer usertypes that use bikes every day of the week
 
 ```SQL
 SELECT
