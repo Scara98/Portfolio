@@ -5,7 +5,7 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
 
    
   
-  **[Project 1](https://github.com/Scara98/Portfolio/blob/main/Project%201.md)** 
+  **[Project 1](https://github.com/Scara98/Portfolio/blob/main/Project%201.md)**- Citibike Data Analysis
 
   
   
@@ -14,7 +14,7 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
   
 
 
- **[Project 2](https://github.com/Scara98/Portfolio/blob/main/Project%202.md)**
+ **[Project 2](https://github.com/Scara98/Portfolio/blob/main/Project%202.md)**- Movies Data Analysis
 
  
  
@@ -24,7 +24,7 @@ I have three projects listed in my "Portfolio" [repository](https://github.com/S
 
 
    
-   **[Project 3](https://github.com/Scara98/Portfolio/blob/main/Project%203%.md)**
+   **[Project 3](https://github.com/Scara98/Portfolio/blob/main/Project%203%.md)**- Job Occupation and Pay Data Analysis
    
  
    
