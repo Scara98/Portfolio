@@ -31,7 +31,7 @@ df.drop('released', axis=1, inplace=True)
 # Write the updated DataFrame to a new CSV file
 df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
-I split the country from the release date so I could use the date from the column to do any calcualtions that might be necessary. 
+I split the country from the release date so I could use the date from the column to do any calculations that might be necessary. 
 
 ## R Code
 
@@ -87,7 +87,7 @@ df_filtered2 <- df_filtered2[, new_column_order]
 ```
 ![Project2_img4](https://github.com/Scara98/Portfolio/assets/150705975/5fb70734-6c6f-4bcd-8d2b-1672b3202198)
 
-I reorganized the columns' order just so it was in an order that I found easier to work with for me personally.
+I reorganized the columns' order just because I found the new order easier to work with for me personally.
 
 #### Run some correlations
 
@@ -108,7 +108,7 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/4ec05815-cd4f-41c4-bd87-a5a32b76c61e)
 
-I ran correlations on any column that was numeric so I could see if there were any clear correlations in relation to gross movie income. The *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation. So it is fair to say that budget and gross have a positive correlation. 
+I ran correlations on any column that was numeric so I could see if there were any clear correlations in relation to gross movie income. The *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation. So it is fair to say that budget and gross have a pretty strong positive correlation. 
 
 #### Create multiple tables that compare average gross for different variables
 
@@ -166,7 +166,7 @@ view(month_avg_gross)
 ```
 ![Project2_img8](https://github.com/Scara98/Portfolio/assets/150705975/c85b697f-32d6-4dcc-81a4-1f0fa065b391)
 
-I calculated the average gross of these general factors: month, genre and rating and did not include company,writer, director, and star because more data and research would need to be done
+I calculated the average gross of these general factors: month, genre and rating and did not include company, writer, director, and star because more data and research would need to be done
 to see if they effect the gross. Maybe some companies, stars, writers, and directors would have high average grossing films in one genre but not another or one time 
 period but not today so to focus on general factors that effect a movie's financial sucess I did not include those factors. 
 
@@ -218,7 +218,6 @@ view(genre_sum_by_month)
 * Biography made 0.8% of the profit and 3% of the movies released.
 * Fantasy made 0.02% of profit and 0.5% of the movies released.
 
-
 ![Pic4](https://github.com/Scara98/Portfolio/assets/150705975/b6991709-36d5-495a-b080-e9fb4c2e365e)
 
 * Action made 47% of the profit and 35% of the movies released.
@@ -246,7 +245,7 @@ view(genre_sum_by_month)
 
 ## Data Conclusions
 
-* The more money you put into your budget, the more money you will get in gross revenue.
+* The more money you put into your budget, the more likely it is that you will get a higher gross revenue.
 * The best months to release a movie are May, June and December.
 * The worst months to release a movie are in January, October and September.
 * Action movies are the highest grossing genre.
