@@ -1,6 +1,6 @@
 # Kristen Bianchi
 ## About me
-I have recently discovered the interesting world of data and I would like to become a part of the data analytics work force. I hope to gain a position as an entry level data analyst and to grow from there. If you would like to learn more about my work ethic, abilities, education and job history please have a look at [my resume](https://github.com/Scara98/Portfolio/blob/main/Resume2023.pdf). I hope you enjoy my projects and I look forward to hearing about potential job opportunities.
+I've recently discovered the fascinating world of data and I'm eager to join the data analytics workforce. My aim is to secure an entry-level position as a data analyst and to further develop and expand my skills. If you're interested in learning more about my work ethic, skills, education, and job history, please take a look at [my resume](https://github.com/Scara98/Portfolio/blob/main/Resume2023.pdf). I'm excited to share my projects and to explore potential job opportunities with you.
 
 ## Data Analyst Projects
 I have three projects listed in my [Portfolio repository](https://github.com/Scara98/Portfolio/tree/main):
