@@ -48,8 +48,7 @@ I made the datasets more concise by removing unnecessary annotation and margin o
 ![Project3_img9](https://github.com/Scara98/Portfolio/assets/150705975/42dc50e5-f68b-4c46-ba0f-714eaedf2b1f)
 ![Project3_img10](https://github.com/Scara98/Portfolio/assets/150705975/22c59799-7c77-46bf-86f9-42c9d6015755)
 
-I calculated the percentage of people in each job field by taking the number of people in a job field and dividing it by each respective group total. 
-I did this by using the division function in excel for each job field for white women, black women, white men and black men.
+I calculated the percentage of individuals in each job field by dividing the number of people in a specific job field by the respective group's total. This process was executed using Excel's division function for each job field. This involved dividing the number of people in a specific job field by the corresponding group total for white women, black women, white men, and black men.
 
 #### Create a new dataset that has columns that contain occupation, median earnings, sex, race, and percent of people in occupation
 ![Project3_img11](https://github.com/Scara98/Portfolio/assets/150705975/a76e943f-7096-411a-aa8c-17ed1ebeb1f5)
