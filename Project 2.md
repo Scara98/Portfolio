@@ -74,7 +74,7 @@ df_filtered2$released_month <- format(df_filtered2$released_date, format = "%B")
 ```
 ![Project2_img3](https://github.com/Scara98/Portfolio/assets/150705975/c743f46f-6016-486b-bb10-1784bea9a8e8)
 
-I created a released month column so I could see if certain times of the year did better in movie profit than other times during the year.
+I implemented a "released_month" column to investigate potential fluctuations in movie profitability across different times of the year, providing another factor for data analysis.
 
 #### Organize the data into an order that is more appeasing
 
