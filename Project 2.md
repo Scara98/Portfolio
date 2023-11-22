@@ -245,11 +245,6 @@ view(genre_sum_by_month)
 
 ## Data Conclusions
 
-* The more money you put into your budget, the more likely it is that you will get a higher gross revenue.
-* The best months to release a movie are May, June and December.
-* The worst months to release a movie are in January, October and September.
-* Action movies are the highest grossing genre.
-* On average, Action and Animation movies earn more profit per film.
-* Although Comedy makes high profit, it makes a poor profit per film on average.
+The data shows clear trends in the film industry. Investing more in a movie budget typically results in higher earnings, highlighting a positive correlation between budget and gross revenue. Timing matters, with May, June, and December being the best months to release a movie and January, October and September are the least desirable months to relase a movie. Action movies consistently make the most money, and both Action and Animation genres have higher average profits per film. Despite high overall profits, Comedies tend to have lower average profits per film. 
 
 
