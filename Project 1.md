@@ -1,8 +1,7 @@
 ## Project objective
-This capstone project was given to me by the Google Data Analytics course on Coursera. The made up company they made for the scenario
-is called Cyclistic which is a bike-share company based in Chicago. Cyclistic's director of marketing wants to determine how Casual Riders 
-and Annual Members differ in their use of Cyclist bikes. Casual riders pay per ride for the citibike or per day whereas Annual members pay a fixed amount every year.
-The director then wants to use the discovered information to create marketing strategies that will help convert Casual riders to Annual members.
+The following project was from the Google Data Analytics course on Coursera. The focus of the project was Cyclistic, a fictional bike-share 
+company based in Chicago. The Marketing Director at Cyclistic wanted to understand how Casual Riders, who pay per ride or per day, differ from 
+Annual Members, who pay a fixed yearly fee. The goal was to then use this discvoered information to create effective marketing strategies to convert Casual Riders into Annual Members.
 
 ## Project Data Source
 [Google Data Analytics course](https://www.coursera.org/professional-certificates/google-data-analytics) on Coursera provided: The divvy trip 2018 Quarter 2 dataset
