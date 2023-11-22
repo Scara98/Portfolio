@@ -166,9 +166,7 @@ view(month_avg_gross)
 ```
 ![Project2_img8](https://github.com/Scara98/Portfolio/assets/150705975/c85b697f-32d6-4dcc-81a4-1f0fa065b391)
 
-I calculated the average gross of these general factors: month, genre and rating and did not include company, writer, director, and star because more data and research would need to be done
-to see if they effect the gross. Maybe some companies, stars, writers, and directors would have high average grossing films in one genre but not another or one time 
-period but not today so to focus on general factors that effect a movie's financial sucess I did not include those factors. 
+I conducted an analysis of average gross revenue of the following variables: release month, genre, and rating. Notably, I excluded the variables: company, writer, director, and star from the analysis due to the need for more comprehensive data and research. The omission of these variables accounts for potential variations in the financial success of movies such as the potential of any of the excluded variables being more successful in certain genres or time periods. This approach is aimed at focusing on overarching elements that broadly influence a movie's financial performance.
 
 ![Pic2](https://github.com/Scara98/Portfolio/assets/150705975/df44265b-69cd-489e-8b5b-62c1ee9711b2)
 
