@@ -31,7 +31,7 @@ df.drop('released', axis=1, inplace=True)
 # Write the updated DataFrame to a new CSV file
 df.to_csv('my_new_csv_file.csv', index=False, header=True)
 ```
-I split the country from the release date so I could use the date from the column to do any calculations that might be necessary. 
+I separated the country details from the release date, making it easier to use the date column for any needed calculations.
 
 ## R Code
 
