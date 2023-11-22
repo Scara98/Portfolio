@@ -61,7 +61,7 @@ df_filtered2 <- df_filtered2[, !(names(df_filtered2) == "year")]
 ```
 ![Project2_img2](https://github.com/Scara98/Portfolio/assets/150705975/707689bc-3c5d-4d1a-b32b-d0002d751222)
 
-I did not find the year column to be neccesary any more because each film already had a released date column that had the year included in the date.
+I removed the year column as each film's release date already includes the necessary year information, simplifying the data analysis process.
 
 #### Add a column for released date month
 
