@@ -173,9 +173,9 @@ which is almost double their 20 percent makeup of cyclists.
 
 
 ## Project Conclusions
-* Males between ages 25-35 are the majority rider type for Annual Subscribers
-* Casual Riders mostly use bikes on weekends whereas Annual Subscribers mostly use them during the weekdays
-* Annual Subscribers use bikes for short periods of time whereas Casual Riders use bikes for long periods of time
+
+Analyzing the data indicates that the majority of Annual Subscribers are males aged 25-35, often using bikes on weekdays for short trips, presumably for work or quick errands. Casual Riders, in contrast, lean towards weekend bike rides for longer periods, perhaps indicating a more recreational usage. Recognizing these differences can guide better-targeted marketing strategies for converting more Casual Riders to 
+Annual Subscribers.
 
 ## Recommendations
 * Target audience should be males 25-35
