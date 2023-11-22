@@ -108,7 +108,7 @@ budget <- cor(df_filtered2$gross, df_filtered2$budget)
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/4ec05815-cd4f-41c4-bd87-a5a32b76c61e)
 
-I ran correlations on any column that was numeric so I could see if there were any clear correlations in relation to gross movie income. The *Pearson Correlation Coefficient* between budget and gross was 0.74041. The *Pearson Correlation Coefficient* scale is -1 to 1, with 1 being a total positive correlation. So it is fair to say that budget and gross have a pretty strong positive correlation. 
+I analyzed numeric columns by running correlations to find connections with gross movie income. The Pearson Correlation Coefficient between budget and gross was 0.74041 on a scale of -1 to 1, indicating a strong positive correlation. This suggests a significant relationship between budget and gross earnings in the realm of movie income.
 
 #### Create multiple tables that compare average gross for different variables
 
