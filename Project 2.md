@@ -87,7 +87,7 @@ df_filtered2 <- df_filtered2[, new_column_order]
 ```
 ![Project2_img4](https://github.com/Scara98/Portfolio/assets/150705975/5fb70734-6c6f-4bcd-8d2b-1672b3202198)
 
-I reorganized the columns' order just because I found the new order easier to work with for me personally.
+I adjusted the sequence of columns to align with personal preferences, aiming to enhance the ease of data manipulation and analysis.
 
 #### Run some correlations
 
