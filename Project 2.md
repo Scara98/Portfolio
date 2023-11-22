@@ -1,6 +1,5 @@
 ## Project Objective
-Using data about movies released from 1980 to 2020 I wanted to figure out if there were certain factors that contributed to a movie being successful at the box office. The dataset includes movie title,
-movie genre, movie rating, movie score, movie votes, writer, director, star, movie company, movie budget, movie gross, runtime, release date, country released in and country origin.
+In this project I examined movies released from 1980 to 2020 to understand what factors contribute to box office success. The dataset comprises details like movie title, genre, rating, score, votes, writer, director, star, company, budget, gross, runtime, release date, and country information. This analysis aimed to uncover patterns and influences on a movie's financial success.
 
 ## Data Source
 Dataset was found on the Kaggle website, named "[Movie Industry](https://www.kaggle.com/datasets/danielgrijalvas/movies)" and created by Daniel Grijalvas
