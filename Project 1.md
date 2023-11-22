@@ -132,7 +132,8 @@ ORDER BY usertype, gender;
 ```
 ![Project1_img6](https://github.com/Scara98/Portfolio/assets/150705975/c270db5d-f901-4f10-8700-010e62f9c639)
 
-![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/e8a8794f-3bd8-48d5-9be7-486fbb07656d)
+![Pic3](https://github.com/Scara98/Portfolio/assets/150705975/da608039-49d1-49d3-a163-571aa3e0dcf8)
+
 
 Males make up **75%** of Annual Subscribers and although most Casual riders do not put their gender down and therefore 
 a majority of casual riders are N/A, males still make up **61%** of all cyclists, Casual and Subscriber users all included.
