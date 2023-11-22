@@ -86,8 +86,5 @@ I did this by using the division function in excel for each job field for white 
 * 14% of white men work in an occupation where the median income is 31k or less
 
 ## Data Conclusions
-* White men are 32% more likely than black women, 26% more likely than white women, and 18% more likely than black men to be in occupations whose median earning is 50k or more
-* Black women are 23% more likely than white men, 13% more likely than black men, and 9% more likely than white women to be in occupations whose median earning is 31k or less
-* On average, men get paid a 24% higher median income for the same occupations women work in
-* Black men are 10% more likely to be in a 31k or lower median income occupation than white men 
+Examining the data reveals significant differences in occupational opportunities and income across gender and race. White men are notably more likely than others—32% more than black women, 26% more than white women, and 18% more than black men—to be in occupations with a median income of $50,000 or more. Conversely, black women are 23% more likely than white men, 13% more likely than black men, and 9% more likely than white women to be in occupations with a median income of $31,000 or less. There is a consistent gender pay gap, with men earning, on average, a 24% higher median income compared to women in similar occupations. Additionally, black men are 10% more likely than white men to be in occupations with a median income of $31,000 or lower.
 
