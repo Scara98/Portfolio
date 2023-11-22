@@ -2,12 +2,9 @@
 Using Census data from 2022, my objective was to discern variations in job occupations and median pay among demographic groups, specifically focusing on black men, white men, black women, and white women. 
 
 ## Data Sources
-Job occupation median pay dataset was found on Census website:
+All three datasets I used were from the Census website:
   
 [B24012 Sex by Occupation and Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Civilian Employed Population 16 Years and Over](https://data.census.gov/table/ACSDT1Y2022.B24012?t=Occupation&g=010XX00US)
-   
-  
-Job occupations held by people datasets were found on Census website:
   
 [B24010B Sex by Occupation for the Civilian Employed Population 16 Years and Over (Black or African American Alone)](https://data.census.gov/table/ACSDT1Y2022.B24010B?q=United+States&t=Black+or+African+American:Employment)
     
@@ -48,7 +45,7 @@ I made the datasets more concise by removing unnecessary annotation and margin o
 ![Project3_img9](https://github.com/Scara98/Portfolio/assets/150705975/42dc50e5-f68b-4c46-ba0f-714eaedf2b1f)
 ![Project3_img10](https://github.com/Scara98/Portfolio/assets/150705975/22c59799-7c77-46bf-86f9-42c9d6015755)
 
-I calculated the percentage of individuals in each job field by dividing the number of people in a specific job field by the respective group's total. This process was executed using Excel's division function for each job field. This involved dividing the number of people in a specific job field by the corresponding group total for white women, black women, white men, and black men.
+I calculated the percentage of individuals in each job field by using Excel's division function. This involved dividing the number of people in a specific job field by the corresponding group total for white women, black women, white men, and black men.
 
 #### Create a new dataset that has columns that contain occupation, median earnings, sex, race, and percent of people in occupation
 ![Project3_img11](https://github.com/Scara98/Portfolio/assets/150705975/a76e943f-7096-411a-aa8c-17ed1ebeb1f5)
