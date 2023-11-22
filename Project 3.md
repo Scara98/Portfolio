@@ -56,7 +56,7 @@ I calculated the percentage of individuals in each job field by using Excel's di
 ![Project3_img14](https://github.com/Scara98/Portfolio/assets/150705975/4f1a2cb1-a6bb-4687-b3fc-7502159d0128)
 ![Project3_img15](https://github.com/Scara98/Portfolio/assets/150705975/ad6d7745-7f39-4694-8528-68039eb27381)
 
-#### Use the new dataset to compare median earning occupation of men versus women by dividing women median earning by men median earning for each listed job occupation then calculate average of these differences
+#### Use the new dataset to compare median earning occupation of men versus women then calculate average of these differences
 ![Project3_img16](https://github.com/Scara98/Portfolio/assets/150705975/865eecb6-1d44-4724-b26f-a54e38086ecd)
 
 
