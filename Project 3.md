@@ -38,8 +38,7 @@ The dataset distinguishes median pay for occupations by sex; however, it does no
 #### Remove all annotation and margin of error columns from black job occupation dataset
 ![Project3_img6](https://github.com/Scara98/Portfolio/assets/150705975/b50705d5-dca9-485c-bd03-3b86c0a38e43)
 
-I removed all annotation and margin of error columns from all the datasets I used because I did not need this information for what I was trying to compare 
-and removing those columns made it easier to view and work with the data. 
+I made the datasets more concise by removing unnecessary annotation and margin of error columns. This simplification enhances the clarity and ease of working with the data for my specific comparisons and analyses.
 
 #### Calculate percent of white males and white females in each occupation using white job occupation dataset
 ![Project3_img7](https://github.com/Scara98/Portfolio/assets/150705975/6832c08c-dbbc-4ea4-a285-ad935db89df3)
