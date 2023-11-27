@@ -50,14 +50,14 @@ I calculated the percentage of individuals in each job field by using Excel's di
 #### Create a new dataset that has columns that contain occupation, median earnings, sex, race, and percent of people in occupation
 ![Project3_img11](https://github.com/Scara98/Portfolio/assets/150705975/a76e943f-7096-411a-aa8c-17ed1ebeb1f5)
 
+#### Use the new dataset to compare median earning occupation of men versus women then calculate average of these differences
+![Project3_img16](https://github.com/Scara98/Portfolio/assets/150705975/865eecb6-1d44-4724-b26f-a54e38086ecd)
+
 #### Split the new dataset into four datasets, splitting them by sex and race(white male, black male, white female, black female)
 ![Project3_img12](https://github.com/Scara98/Portfolio/assets/150705975/545243e1-ade9-4812-8bd1-3718127ac970)
 ![Project3_img13](https://github.com/Scara98/Portfolio/assets/150705975/7d261a47-f64d-4919-a5d8-4fa4fe0addd9)
 ![Project3_img14](https://github.com/Scara98/Portfolio/assets/150705975/4f1a2cb1-a6bb-4687-b3fc-7502159d0128)
 ![Project3_img15](https://github.com/Scara98/Portfolio/assets/150705975/ad6d7745-7f39-4694-8528-68039eb27381)
-
-#### Use the new dataset to compare median earning occupation of men versus women then calculate average of these differences
-![Project3_img16](https://github.com/Scara98/Portfolio/assets/150705975/865eecb6-1d44-4724-b26f-a54e38086ecd)
 
 
 ![Pic1](https://github.com/Scara98/Portfolio/assets/150705975/061c87c5-c990-4611-97ff-7d40b46593a0)
