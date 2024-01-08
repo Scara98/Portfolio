@@ -38,7 +38,7 @@ I separated the country details from the release date, making it easier to use t
 
 ``` R
 
-df2 <- read.csv("C:\\Users\\klb81\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
+df2 <- read.csv("C:\\Users\\.....\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 2\\my_new_csv_file.csv", header = TRUE)
 
 library(dplyr)
 library(tidyverse)
