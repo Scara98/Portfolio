@@ -2,7 +2,7 @@
 
 
 ## Project Data Source
-[Titanic Dataset Provided By Kaggle](https://www.kaggle.com/competitions/titanic/data?select=train.csv) 
+[Titanic Dataset](https://www.kaggle.com/competitions/titanic/data?select=train.csv) Provided by Kaggle
 
 ## Data Tools Used
 * Python
