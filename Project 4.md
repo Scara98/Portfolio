@@ -11,7 +11,7 @@ Figure out what factors may have contributed to passengers' survival rate. Take 
 ## Python Code
 #### Upload and view data
 
-```
+```python
 import pandas as pd
 csv_file_path='C:\\Users\\....\\OneDrive\\Documents\\Data Analytics Course\\Capstone Project 4\\Titanic\\titanic.py.csv'
 df=pd.read_csv(csv_file_path)
