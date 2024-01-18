@@ -36,7 +36,7 @@ I have four projects listed in my [Portfolio repository](https://github.com/Scar
 
 
 
-   **[Project 4](https://github.com/Scara98/Portfolio/blob/Project%204%.md)**- Titanic Data Analysis
+   **[Project 4](https://github.com/Scara98/Portfolio/blob/main/Project%204%.md)**- Titanic Data Analysis
 
    
    
