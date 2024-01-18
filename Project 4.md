@@ -17,14 +17,14 @@ csv_file_path='C:\\Users\\....\\OneDrive\\Documents\\Data Analytics Course\\Caps
 df=pd.read_csv(csv_file_path)
 print(df)
 ```
-[pic1_img](https://github.com/Scara98/Portfolio/blob/main/pic1_img)
+![pic1_img](https://github.com/Scara98/Portfolio/blob/main/pic1_img)
 #### Replace any null values with identifiable values
 ```python
 replacement_values = {'PassengerId': 9999, 'Survived': 9999, 'Pclass': 9999, 'Name': 'N/A', 'Sex': 'N/A','Age': 9999, 'SibSp': 9999, 'Parch': 9999, 'Ticket': 'N/A', 'Fare': 9999, 'Cabin': 'N/A', 'Embarked': 'N/A'}
 df.fillna(replacement_values, inplace=True)
 df.to_csv(csv_file_path, index=False)
 ```
-[pic2_img](https://github.com/Scara98/Portfolio/blob/main/pic2_img)
+![pic2_img](https://github.com/Scara98/Portfolio/blob/main/pic2_img)
 #### Count number of males and females who survived versus who passed away
 ```python
 females_survived = df[(df['Sex'] == 'female') & (df['Survived'] == 1)].shape[0]
