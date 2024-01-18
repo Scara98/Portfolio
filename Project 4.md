@@ -17,7 +17,7 @@ csv_file_path='C:\\Users\\....\\OneDrive\\Documents\\Data Analytics Course\\Caps
 df=pd.read_csv(csv_file_path)
 print(df)
 ```
-
+![Pic1.png](https://github.com/Scara98/Portfolio/blob/main/pic1.png)
 #### Replace any null values with identifiable values
 ```python
 replacement_values = {'PassengerId': 9999, 'Survived': 9999, 'Pclass': 9999, 'Name': 'N/A', 'Sex': 'N/A','Age': 9999, 'SibSp': 9999, 'Parch': 9999, 'Ticket': 'N/A', 'Fare': 9999, 'Cabin': 'N/A', 'Embarked': 'N/A'}
