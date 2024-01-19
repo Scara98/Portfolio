@@ -447,5 +447,11 @@ lcombo6_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']
 print('Number of 2nd class male passengers aged 18-64 who survived:', lcombo6_survived)
 ```
 ![pic14_img](https://github.com/Scara98/Portfolio/blob/main/pic14_img)
+![img8](https://github.com/Scara98/Portfolio/blob/imgs/img8.png)
+![img9](https://github.com/Scara98/Portfolio/blob/imgs/img9.png)
+![img10](https://github.com/Scara98/Portfolio/blob/imgs/img10.png)
+![img11](https://github.com/Scara98/Portfolio/blob/imgs/img11.png)
+![img12](https://github.com/Scara98/Portfolio/blob/imgs/img12.png)
+![img13](https://github.com/Scara98/Portfolio/blob/imgs/img13.png)
 ## Data Conclussions
 Females had a higher survival rate than males with first class females having the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for two out of the six combinations.
