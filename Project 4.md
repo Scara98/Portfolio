@@ -450,7 +450,7 @@ print('Number of 2nd class male passengers aged 18-64:', lcombo6)
 lcombo6_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']>= 18) & (df['Age']<=64) & (df['Pclass']==2)].shape[0]
 print('Number of 2nd class male passengers aged 18-64 who survived:', lcombo6_survived)
 ```
-![pic14_img](https://github.com/Scara98/Portfolio/blob/main/pic14_img)
+![pic14_img](https://github.com/Scara98/Portfolio/blob/imgs/pic14_img)
 ![img8](https://github.com/Scara98/Portfolio/blob/imgs/img8.png)
 ![img9](https://github.com/Scara98/Portfolio/blob/imgs/img9.png)
 ![img10](https://github.com/Scara98/Portfolio/blob/imgs/img10.png)
