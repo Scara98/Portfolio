@@ -17,14 +17,14 @@ csv_file_path='C:\\Users\\....\\OneDrive\\Documents\\Data Analytics Course\\Caps
 df=pd.read_csv(csv_file_path)
 print(df)
 ```
-![pic1_img](https://github.com/Scara98/Portfolio/blob/main/pic1_img)
+![pic1_img](https://github.com/Scara98/Portfolio/blob/imgs/pic1_img)
 #### Replace any null values with identifiable values
 ```python
 replacement_values = {'PassengerId': 9999, 'Survived': 9999, 'Pclass': 9999, 'Name': 'N/A', 'Sex': 'N/A','Age': 9999, 'SibSp': 9999, 'Parch': 9999, 'Ticket': 'N/A', 'Fare': 9999, 'Cabin': 'N/A', 'Embarked': 'N/A'}
 df.fillna(replacement_values, inplace=True)
 df.to_csv(csv_file_path, index=False)
 ```
-![pic2_img](https://github.com/Scara98/Portfolio/blob/main/pic2_img)
+![pic2_img](https://github.com/Scara98/Portfolio/blob/imgs/pic2_img)
 #### Count number of males and females who survived versus who passed away
 ```python
 females_survived = df[(df['Sex'] == 'female') & (df['Survived'] == 1)].shape[0]
@@ -39,7 +39,7 @@ print('Number of male survivors:',males_survived)
 males_passed = df[(df['Sex'] == 'male') & (df['Survived'] == 0)].shape[0]
 print('Number of males who lost their lives:',males_passed)
 ```
-![pic3_img](https://github.com/Scara98/Portfolio/blob/main/pic3_img)
+![pic3_img](https://github.com/Scara98/Portfolio/blob/imgs/pic3_img)
 
 #### Count number of males and females split by age survival rate
 ```python
@@ -83,7 +83,7 @@ print('Number of unrecorded age males:', unknownm)
 unknownm_survived=df[(df['Sex']=='male') & (df['Survived']==1) & (df['Age']==9999)].shape[0]
 print('Number of unrecorded age males who survived:', unknownm_survived)
 ```
-![pic4_img](https://github.com/Scara98/Portfolio/blob/main/pic4_img)
+![pic4_img](https://github.com/Scara98/Portfolio/blob/imgs/pic4_img)
 #### Comparing ticket classes and survival rate
 ```python
 class1=df[(df['Pclass']==1)].shape[0]
@@ -101,7 +101,7 @@ print('Number of 3rd class passengers:', class3)
 class3_survived=df[(df['Pclass']==3) & (df['Survived']==1)].shape[0]
 print('Number of 3rd class passengers that survived:', class3_survived)
 ```
-![pic5_img](https://github.com/Scara98/Portfolio/blob/main/pic5_img)
+![pic5_img](https://github.com/Scara98/Portfolio/blob/imgs/pic5_img)
 #### Ticket class and sex determining survival rate
 ```python
 class4=df[(df['Pclass']==1) & (df['Sex']== 'female')].shape[0]
@@ -134,7 +134,7 @@ print('Number of 3rd class male passengers:', class9)
 class9_survived=df[(df['Pclass']==3) & (df['Sex']== 'male') & (df['Survived']==1)].shape[0]
 print('Number of 3rd class male passengers that survived:', class9_survived)
 ```
-![pic6_img](https://github.com/Scara98/Portfolio/blob/main/pic6_img)
+![pic6_img](https://github.com/Scara98/Portfolio/blob/imgs/pic6_img)
 #### Survival rate by cabin
 ```python
 cabina = df[df['Cabin'].str.startswith('A', na=False)].shape[0]
@@ -182,7 +182,7 @@ print('Number of passengers in unknown Cabin:', cabinna)
 cabinna_survived= df[(df['Cabin']=='N/A') & (df['Survived']==1)].shape[0]
 print('Number of passengers in unknown Cabin that survived:', cabinna_survived)
 ```
-![pic7_img](https://github.com/Scara98/Portfolio/blob/main/pic7_img)
+![pic7_img](https://github.com/Scara98/Portfolio/blob/imgs/pic7_img)
 #### Survival based on where passengers embarked
 ```python
 embarkc=df[df['Embarked']=='C'].shape[0]
@@ -205,7 +205,7 @@ print('Number of people who boarded in an unknown location:', embarkna)
 embarkna_survived=df[(df['Embarked']=='N/A') & (df['Survived']==1)].shape[0]
 print('Number of people who boarded in an unknown location that survived:', embarkna_survived)
 ```
-![pic8_img](https://github.com/Scara98/Portfolio/blob/main/pic8_img)
+![pic8_img](https://github.com/Scara98/Portfolio/blob/imgs/pic8_img)
 #### Survival based on fare paid
 ```python
 fare10=df[df['Fare']<=9.99].shape[0]
@@ -228,7 +228,7 @@ print('Number of people who paid $100 or more for their fare:', fare500)
 fare500_survived=df[(df['Fare']>=100) & (df['Survived']==1)].shape[0]
 print('Number of people who paid $100 or more fare who survived:', fare500_survived)
 ```
-![pic9_img](https://github.com/Scara98/Portfolio/blob/main/pic9_img)
+![pic9_img](https://github.com/Scara98/Portfolio/blob/imgs/pic9_img)
 #### Using fare and class to determine survival rate
 ```python
 fare10_1=df[(df['Fare']<=9.99) & (df['Pclass']==1)].shape[0]
@@ -291,7 +291,7 @@ print('Number of people in 3rd class who paid $100 or more for their fare:', far
 fare500_3_survived=df[(df['Fare']<=100) & (df['Pclass']==3) & (df['Survived']==1)].shape[0]
 print('Number of people in 3rd class who paid $100 or more for their fare who survived:', fare500_3_survived)
 ```
-![pic10_img](https://github.com/Scara98/Portfolio/blob/main/pic10_img)
+![pic10_img](https://github.com/Scara98/Portfolio/blob/imgs/pic10_img)
 #### Survival rate for siblings/spouse number
 ```python
 sibsp0=df[df['SibSp']==0].shape[0]
@@ -329,7 +329,7 @@ print('Number of passengers with eight for siblings and/or spouse on board:', si
 sibsp8_survived=df[(df['SibSp']==8) & (df['Survived']==1)].shape[0]
 print('Number of passengers with eight for siblings and/or spouse on board who survived:', sibsp8_survived)
 ```
-![pic11_img](https://github.com/Scara98/Portfolio/blob/main/pic11_img)
+![pic11_img](https://github.com/Scara98/Portfolio/blob/imgs/pic11_img)
 #### Number of children/parents on board survival rate
 ```python
 fam0=df[df['Parch']==0].shape[0]
@@ -367,7 +367,7 @@ print('Number of passengers with six for children and/or parents on board:', fam
 fam6_survived=df[(df['Parch']==6) & (df['Survived']==1)].shape[0]
 print('Number of passengers with six for children and/or parents on board who survived:', fam6_survived)
 ```
-![pic12_img](https://github.com/Scara98/Portfolio/blob/main/pic12_img)
+![pic12_img](https://github.com/Scara98/Portfolio/blob/imgs/pic12_img)
 #### Highest survival rate when combining sex and class with third factor
 ```python
 #highest percent combo(over 23ppl) out of all sex, class, and fare combinations
@@ -406,7 +406,7 @@ print('Number of 1st class female passengers aged 18-64:', combo6)
 combo6_survived = df[(df['Sex'] == 'female') & (df['Survived'] == 1) & (df['Age']>= 18) & (df['Age']<=64) & (df['Pclass']==1)].shape[0]
 print('Number of 1st class female passengers aged 18-64 who survived:', combo6_survived)
 ```
-![pic13_img](https://github.com/Scara98/Portfolio/blob/main/pic13_img)
+![pic13_img](https://github.com/Scara98/Portfolio/blob/imgs/pic13_img)
 #### Lowest survival rate when combining sex and class with third factor
 ```python
 #lowest percent combo(over 23ppl) out of all sex, class, and fare combinations
