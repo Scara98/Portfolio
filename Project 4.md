@@ -299,6 +299,7 @@ fare500_3_survived=df[(df['Fare']<=100) & (df['Pclass']==3) & (df['Survived']==1
 print('Number of people in 3rd class who paid $100 or more for their fare who survived:', fare500_3_survived)
 ```
 ![pic10_img](https://github.com/Scara98/Portfolio/blob/imgs/pic10_img)
+![img14.png](https://github.com/Scara98/Portfolio/blob/imgs/img14.png)
 #### Survival rate for siblings/spouse number
 ```python
 sibsp0=df[df['SibSp']==0].shape[0]
