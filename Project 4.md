@@ -40,7 +40,7 @@ males_passed = df[(df['Sex'] == 'male') & (df['Survived'] == 0)].shape[0]
 print('Number of males who lost their lives:',males_passed)
 ```
 ![pic3_img](https://github.com/Scara98/Portfolio/blob/imgs/pic3_img)
-
+![img1.png](https://github.com/Scara98/Portfolio/blob/imgs/img1.png)
 #### Count number of males and females split by age survival rate
 ```python
 childrenf=df[(df['Sex']== 'female') & (df['Age']<=17)].shape[0]
@@ -206,6 +206,7 @@ embarkna_survived=df[(df['Embarked']=='N/A') & (df['Survived']==1)].shape[0]
 print('Number of people who boarded in an unknown location that survived:', embarkna_survived)
 ```
 ![pic8_img](https://github.com/Scara98/Portfolio/blob/imgs/pic8_img)
+![img2.png](https://github.com/Scara98/Portfolio/blob/imgs/img2.png)
 #### Survival based on fare paid
 ```python
 fare10=df[df['Fare']<=9.99].shape[0]
