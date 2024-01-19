@@ -40,7 +40,7 @@ males_passed = df[(df['Sex'] == 'male') & (df['Survived'] == 0)].shape[0]
 print('Number of males who lost their lives:',males_passed)
 ```
 ![pic3_img](https://github.com/Scara98/Portfolio/blob/main/pic3_img)
-![img1](C:\Users\klb81\OneDrive\Documents\Data Analytics Course\Capstone Project 4\Titanic\img1)
+
 #### Count number of males and females split by age survival rate
 ```python
 childrenf=df[(df['Sex']== 'female') & (df['Age']<=17)].shape[0]
