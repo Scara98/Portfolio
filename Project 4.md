@@ -40,6 +40,24 @@ males_passed = df[(df['Sex'] == 'male') & (df['Survived'] == 0)].shape[0]
 print('Number of males who lost their lives:',males_passed)
 ```
 ![pic3_img](https://github.com/Scara98/Portfolio/blob/imgs/pic3_img)
+#### Comparing ticket classes and survival rate
+```python
+class1=df[(df['Pclass']==1)].shape[0]
+print('Number of 1st class passengers:', class1)
+class1_survived=df[(df['Pclass']==1) & (df['Survived']==1)].shape[0]
+print('Number of 1st class passengers that survived:', class1_survived)
+
+class2=df[(df['Pclass']==2)].shape[0]
+print('Number of 2nd class passengers:', class2)
+class2_survived=df[(df['Pclass']==2) & (df['Survived']==1)].shape[0]
+print('Number of 2nd class passengers that survived:', class2_survived)
+
+class3=df[(df['Pclass']==3)].shape[0]
+print('Number of 3rd class passengers:', class3)
+class3_survived=df[(df['Pclass']==3) & (df['Survived']==1)].shape[0]
+print('Number of 3rd class passengers that survived:', class3_survived)
+```
+![pic5_img](https://github.com/Scara98/Portfolio/blob/imgs/pic5_img)
 ![img1.png](https://github.com/Scara98/Portfolio/blob/imgs/img1.png)
 #### Count number of males and females split by age survival rate
 ```python
@@ -84,24 +102,9 @@ unknownm_survived=df[(df['Sex']=='male') & (df['Survived']==1) & (df['Age']==999
 print('Number of unrecorded age males who survived:', unknownm_survived)
 ```
 ![pic4_img](https://github.com/Scara98/Portfolio/blob/imgs/pic4_img)
-#### Comparing ticket classes and survival rate
-```python
-class1=df[(df['Pclass']==1)].shape[0]
-print('Number of 1st class passengers:', class1)
-class1_survived=df[(df['Pclass']==1) & (df['Survived']==1)].shape[0]
-print('Number of 1st class passengers that survived:', class1_survived)
+![img7](https://github.com/Scara98/Portfolio/blob/imgs/img7.png)
 
-class2=df[(df['Pclass']==2)].shape[0]
-print('Number of 2nd class passengers:', class2)
-class2_survived=df[(df['Pclass']==2) & (df['Survived']==1)].shape[0]
-print('Number of 2nd class passengers that survived:', class2_survived)
 
-class3=df[(df['Pclass']==3)].shape[0]
-print('Number of 3rd class passengers:', class3)
-class3_survived=df[(df['Pclass']==3) & (df['Survived']==1)].shape[0]
-print('Number of 3rd class passengers that survived:', class3_survived)
-```
-![pic5_img](https://github.com/Scara98/Portfolio/blob/imgs/pic5_img)
 #### Ticket class and sex determining survival rate
 ```python
 class4=df[(df['Pclass']==1) & (df['Sex']== 'female')].shape[0]
