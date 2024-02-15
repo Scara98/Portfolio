@@ -1,5 +1,5 @@
 ## Project Objective
-Figure out what factors may have contributed to passengers' survival rate. Take a look at which groups of people had the highest survival rate versus passengers who had the lowest survival rate. 
+Figure out what factors may have contributed to passengers' survival rate on the Titanic. Take a look at which groups of people had the highest survival rate versus passengers who had the lowest survival rate. 
 
 ## Project Data Source
 [Titanic Dataset](https://www.kaggle.com/competitions/titanic/data?select=train.csv) Provided by Kaggle
@@ -65,31 +65,12 @@ print('Number of 1st class female passengers:', class4)
 class4_survived=df[(df['Pclass']==1) & (df['Sex']== 'female') & (df['Survived']==1)].shape[0]
 print('Number of 1st class female passengers that survived:', class4_survived)
 
-class5=df[(df['Pclass']==2) & (df['Sex']== 'female')].shape[0]
-print('Number of 2nd class female passengers:', class5)
-class5_survived=df[(df['Pclass']==2) & (df['Sex']== 'female') & (df['Survived']==1)].shape[0]
-print('Number of 2nd class female passengers that survived:', class5_survived)
-
-class6=df[(df['Pclass']==3) & (df['Sex']== 'female')].shape[0]
-print('Number of 3rd class female passengers:', class6)
-class6_survived=df[(df['Pclass']==3) & (df['Sex']== 'female') & (df['Survived']==1)].shape[0]
-print('Number of 3rd class female passengers that survived:', class6_survived)
-
 class7=df[(df['Pclass']==1) & (df['Sex']== 'male')].shape[0]
 print('Number of 1st class male passengers:', class7)
 class7_survived=df[(df['Pclass']==1) & (df['Sex']== 'male') & (df['Survived']==1)].shape[0]
 print('Number of 1st class male passengers that survived:', class7_survived)
-
-class8=df[(df['Pclass']==2) & (df['Sex']== 'male')].shape[0]
-print('Number of 2nd class male passengers:', class8)
-class8_survived=df[(df['Pclass']==2) & (df['Sex']== 'male') & (df['Survived']==1)].shape[0]
-print('Number of 2nd class male passengers that survived:', class8_survived)
-
-class9=df[(df['Pclass']==3) & (df['Sex']== 'male')].shape[0]
-print('Number of 3rd class male passengers:', class9)
-class9_survived=df[(df['Pclass']==3) & (df['Sex']== 'male') & (df['Survived']==1)].shape[0]
-print('Number of 3rd class male passengers that survived:', class9_survived)
 ```
+The code was repeated for classes 1 and 2 for both males and females. 
 ![pic6_img](https://github.com/Scara98/Portfolio/blob/imgs/pic6_img)
 ![img1.png](https://github.com/Scara98/Portfolio/blob/imgs/img1.png)
 #### Count number of males and females split by age survival rate
