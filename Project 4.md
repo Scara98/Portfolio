@@ -72,7 +72,7 @@ print('Number of 1st class male passengers that survived:', class7_survived)
 ```
 The code was repeated for classes 2 and 3 for both males and females. 
 ![pic6_img](https://github.com/Scara98/Portfolio/blob/imgs/pic6_img)
-![img1.png](https://github.com/Scara98/Portfolio/blob/imgs/img1.png)
+![imge1.png](https://github.com/Scara98/Portfolio/blob/imgs/imge1.png)
 #### Count number of males and females split by age survival rate
 ```python
 childrenf=df[(df['Sex']== 'female') & (df['Age']<=17)].shape[0]
