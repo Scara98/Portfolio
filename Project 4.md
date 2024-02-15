@@ -70,7 +70,7 @@ print('Number of 1st class male passengers:', class7)
 class7_survived=df[(df['Pclass']==1) & (df['Sex']== 'male') & (df['Survived']==1)].shape[0]
 print('Number of 1st class male passengers that survived:', class7_survived)
 ```
-The code was repeated for classes 1 and 2 for both males and females. 
+The code was repeated for classes 2 and 3 for both males and females. 
 ![pic6_img](https://github.com/Scara98/Portfolio/blob/imgs/pic6_img)
 ![img1.png](https://github.com/Scara98/Portfolio/blob/imgs/img1.png)
 #### Count number of males and females split by age survival rate
@@ -94,27 +94,8 @@ unknownf=df[(df['Sex']=='female') & (df['Age']==9999)].shape[0]
 print('Number of unrecorded age females:', unknownf)
 unknownf_survived=df[(df['Sex']=='female') & (df['Survived']==1) & (df['Age']==9999)].shape[0]
 print('Number of unrecorded age females who survived:', unknownf_survived)
-
-childrenm=df[(df['Sex']== 'male') & (df['Age']<=17)].shape[0]
-print('Number of males under 18:', childrenm)
-childrenm_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']<= 17)].shape[0]
-print('Number of males under 18 who survived:', childrenm_survived)
-
-adultm=df[(df['Sex']== 'male') & (df['Age']>=18) & (df['Age'] <=64)].shape[0]
-print('Number of males aged 18-64:', adultm)
-adultm_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']>= 18) & (df['Age']<=64)].shape[0]
-print('Number of males aged 18-64 who survived:', adultm_survived)
-
-elderm=df[(df['Sex']== 'male') & (df['Age']>=65) & (df['Age']<9999)].shape[0]
-print('Number of males 65 and over:', elderm)
-elderm_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']>= 65) & (df['Age']<9999)].shape[0]
-print('Number of males 65 and over who survived:', elderm_survived)
-
-unknownm=df[(df['Sex']=='male') & (df['Age']==9999)].shape[0]
-print('Number of unrecorded age males:', unknownm)
-unknownm_survived=df[(df['Sex']=='male') & (df['Survived']==1) & (df['Age']==9999)].shape[0]
-print('Number of unrecorded age males who survived:', unknownm_survived)
 ```
+The same code was repeated for males. 
 ![pic4_img](https://github.com/Scara98/Portfolio/blob/imgs/pic4_img)
 ![img7](https://github.com/Scara98/Portfolio/blob/imgs/img7.png)
 
@@ -131,42 +112,8 @@ cabinb = df[df['Cabin'].str.startswith('B', na=False)].shape[0]
 print('Number of passengers in Cabin B:', cabinb)
 cabinb_survived= df[(df['Cabin'].str.startswith('B', na=False)) & (df['Survived']==1)].shape[0]
 print('Number of Cabin B passengers that survived:', cabinb_survived)
-
-cabinc = df[df['Cabin'].str.startswith('C', na=False)].shape[0]
-print('Number of passengers in Cabin C:', cabinc)
-cabinc_survived= df[(df['Cabin'].str.startswith('C', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin C passengers that survived:', cabinc_survived)
-
-cabind = df[df['Cabin'].str.startswith('D', na=False)].shape[0]
-print('Number of passengers in Cabin D:', cabind)
-cabind_survived= df[(df['Cabin'].str.startswith('D', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin D passengers that survived:', cabind_survived)
-
-cabine = df[df['Cabin'].str.startswith('E', na=False)].shape[0]
-print('Number of passengers in Cabin E:', cabine)
-cabine_survived= df[(df['Cabin'].str.startswith('E', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin E passengers that survived:', cabine_survived)
-
-cabinf = df[df['Cabin'].str.startswith('F', na=False)].shape[0]
-print('Number of passengers in Cabin F:', cabinf)
-cabinf_survived= df[(df['Cabin'].str.startswith('F', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin F passengers that survived:', cabinf_survived)
-
-cabing = df[df['Cabin'].str.startswith('G', na=False)].shape[0]
-print('Number of passengers in Cabin G:', cabing)
-cabing_survived= df[(df['Cabin'].str.startswith('G', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin G passengers that survived:', cabing_survived)
-
-cabint = df[df['Cabin'].str.startswith('T', na=False)].shape[0]
-print('Number of passengers in Cabin T:', cabint)
-cabint_survived= df[(df['Cabin'].str.startswith('T', na=False)) & (df['Survived']==1)].shape[0]
-print('Number of Cabin T passengers that survived:', cabint_survived)
-
-cabinna = df[df['Cabin']=='N/A'].shape[0]
-print('Number of passengers in unknown Cabin:', cabinna)
-cabinna_survived= df[(df['Cabin']=='N/A') & (df['Survived']==1)].shape[0]
-print('Number of passengers in unknown Cabin that survived:', cabinna_survived)
 ```
+The same code was repeated for passengers in Cabins C, D, E, F, G, T, and passengers not listed in a Cabin.
 ![pic7_img](https://github.com/Scara98/Portfolio/blob/imgs/pic7_img)
 ![img3](https://github.com/Scara98/Portfolio/blob/imgs/img3.png)
 #### Survival based on where passengers embarked
@@ -224,61 +171,22 @@ print('Number of people in 1st class who paid under $10 for their fare:', fare10
 fare10_1_survived=df[(df['Fare']<=9.99) & (df['Pclass']==1) & (df['Survived']==1)].shape[0]
 print('Number of people in 1st class who paid under $10 fare who survived:', fare10_1_survived)
 
-fare10_2=df[(df['Fare']<=9.99) & (df['Pclass']==2)].shape[0]
-print('Number of people in 2nd class who paid under $10 for their fare:', fare10_2)
-fare10_2_survived=df[(df['Fare']<=9.99) & (df['Pclass']==2) & (df['Survived']==1)].shape[0]
-print('Number of people in 2nd class who paid under $10 fare who survived:', fare10_2_survived)
-
-fare10_3=df[(df['Fare']<=9.99) & (df['Pclass']==3)].shape[0]
-print('Number of people in 3rd class who paid under $10 for their fare:', fare10_3)
-fare10_3_survived=df[(df['Fare']<=9.99) & (df['Pclass']==3) & (df['Survived']==1)].shape[0]
-print('Number of people in 3rd class who paid under $10 fare who survived:', fare10_3_survived)
-
 fare30_1=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==1)].shape[0]
 print('Number of people in 1st class who paid between $10 to $29.99 for their fare:', fare30_1)
 fare30_1_survived=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==1) & (df['Survived']==1)].shape[0]
 print('Number of people in 1st class who paid between $10 to $29.99 fare who survived:', fare30_1_survived)
-
-fare30_2=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==2)].shape[0]
-print('Number of people in 2nd class who paid between $10 to $29.99 for their fare:', fare30_2)
-fare30_2_survived=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==2) & (df['Survived']==1)].shape[0]
-print('Number of people in 2nd class who paid between $10 to $29.99 fare who survived:', fare30_2_survived)
-
-fare30_3=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==3)].shape[0]
-print('Number of people in 3rd class who paid between $10 to $29.99 for their fare:', fare30_3)
-fare30_3_survived=df[(df['Fare']>=10) & (df['Fare']<=29.99) & (df['Pclass']==3) & (df['Survived']==1)].shape[0]
-print('Number of people in 3rd class who paid between $10 to $29.99 fare who survived:', fare30_3_survived)
 
 fare100_1=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==1)].shape[0]
 print('Number of people in 1st class who paid between $30 to $99.99 for their fare:', fare100_1)
 fare100_1_survived=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==1) & (df['Survived']==1)].shape[0]
 print('Number of people in 1st class who paid between $30 to $99.99 fare who survived:', fare100_1_survived)
 
-fare100_2=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==2)].shape[0]
-print('Number of people in 2nd class who paid between $30 to $99.99 for their fare:', fare100_2)
-fare100_2_survived=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==2) & (df['Survived']==1)].shape[0]
-print('Number of people in 2nd class who paid between $30 to $99.99 fare who survived:', fare100_2_survived)
-
-fare100_3=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==3)].shape[0]
-print('Number of people in 3rd class who paid between $30 to $99.99 for their fare:', fare100_3)
-fare100_3_survived=df[(df['Fare']>=30) & (df['Fare']<=99.99) & (df['Pclass']==3) & (df['Survived']==1)].shape[0]
-print('Number of people in 3rd class who paid between $30 to $99.99 fare who survived:', fare100_3_survived)
-
 fare500_1=df[(df['Fare']<=100) & (df['Pclass']==1)].shape[0]
 print('Number of people in 1st class who paid $100 or more for their fare:', fare500_1)
 fare500_1_survived=df[(df['Fare']<=100) & (df['Pclass']==1) & (df['Survived']==1)].shape[0]
 print('Number of people in 1st class who paid $100 or more for their fare who survived:', fare500_1_survived)
-
-fare500_2=df[(df['Fare']<=100) & (df['Pclass']==2)].shape[0]
-print('Number of people in 2nd class who paid $100 or more for their fare:', fare500_2)
-fare500_2_survived=df[(df['Fare']<=100) & (df['Pclass']==2) & (df['Survived']==1)].shape[0]
-print('Number of people in 2nd class who paid $100 or more for their fare who survived:', fare500_2_survived)
-
-fare500_3=df[(df['Fare']<=100) & (df['Pclass']==3)].shape[0]
-print('Number of people in 3rd class who paid $100 or more for their fare:', fare500_3)
-fare500_3_survived=df[(df['Fare']<=100) & (df['Pclass']==3) & (df['Survived']==1)].shape[0]
-print('Number of people in 3rd class who paid $100 or more for their fare who survived:', fare500_3_survived)
 ```
+The same code was repeated for passengers in 2nd and 3rd class. 
 ![pic10_img](https://github.com/Scara98/Portfolio/blob/imgs/pic10_img)
 ![img14.png](https://github.com/Scara98/Portfolio/blob/imgs/img14.png)
 #### Survival rate for siblings/spouse number
@@ -292,32 +200,8 @@ sibsp1=df[df['SibSp']==1].shape[0]
 print('Number of passengers with one sibling or spouse on board:', sibsp1)
 sibsp1_survived=df[(df['SibSp']==1) & (df['Survived']==1)].shape[0]
 print('Number of passengers with one sibling or spouse on board who survived:', sibsp1_survived)
-
-sibsp2=df[df['SibSp']==2].shape[0]
-print('Number of passengers with two for siblings and/or spouse on board:', sibsp2)
-sibsp2_survived=df[(df['SibSp']==2) & (df['Survived']==1)].shape[0]
-print('Number of passengers with two for siblings and/or spouse on board who survived:', sibsp2_survived)
-
-sibsp3=df[df['SibSp']==3].shape[0]
-print('Number of passengers with three for siblings and/or spouse on board:', sibsp3)
-sibsp3_survived=df[(df['SibSp']==3) & (df['Survived']==1)].shape[0]
-print('Number of passengers with three for siblings and/or spouse on board who survived:', sibsp3_survived)
-
-sibsp4=df[df['SibSp']==4].shape[0]
-print('Number of passengers with four for siblings and/or spouse on board:', sibsp4)
-sibsp4_survived=df[(df['SibSp']==4) & (df['Survived']==1)].shape[0]
-print('Number of passengers with four for siblings and/or spouse on board who survived:', sibsp4_survived)
-
-sibsp5=df[df['SibSp']==5].shape[0]
-print('Number of passengers with five for siblings and/or spouse on board:', sibsp5)
-sibsp5_survived=df[(df['SibSp']==5) & (df['Survived']==1)].shape[0]
-print('Number of passengers with five for siblings and/or spouse on board who survived:', sibsp5_survived)
-
-sibsp8=df[df['SibSp']==8].shape[0]
-print('Number of passengers with eight for siblings and/or spouse on board:', sibsp8)
-sibsp8_survived=df[(df['SibSp']==8) & (df['Survived']==1)].shape[0]
-print('Number of passengers with eight for siblings and/or spouse on board who survived:', sibsp8_survived)
 ```
+The same code was repeated for passengers with 2, 3, 4, 5, and 8 siblings/spouse listed. 
 ![pic11_img](https://github.com/Scara98/Portfolio/blob/imgs/pic11_img)
 ![img5.png](https://github.com/Scara98/Portfolio/blob/imgs/img5.png)
 #### Number of children/parents on board survival rate
@@ -331,32 +215,8 @@ fam1=df[df['Parch']==1].shape[0]
 print('Number of passengers with one child or parent on board:', fam1)
 fam1_survived=df[(df['Parch']==1) & (df['Survived']==1)].shape[0]
 print('Number of passengers with one child or parent on board who survived:', fam1_survived)
-
-fam2=df[df['Parch']==2].shape[0]
-print('Number of passengers with two for children and/or parents on board:', fam2)
-fam2_survived=df[(df['Parch']==2) & (df['Survived']==1)].shape[0]
-print('Number of passengers with two for children and/or parents on board who survived:', fam2_survived)
-
-fam3=df[df['Parch']==3].shape[0]
-print('Number of passengers with three for children and/or parents on board:', fam3)
-fam3_survived=df[(df['Parch']==3) & (df['Survived']==1)].shape[0]
-print('Number of passengers with three for children and/or parents on board who survived:', fam3_survived)
-
-fam4=df[df['Parch']==4].shape[0]
-print('Number of passengers with four for children and/or parents on board:', fam4)
-fam4_survived=df[(df['Parch']==4) & (df['Survived']==1)].shape[0]
-print('Number of passengers with four for children and/or parents on board who survived:', fam4_survived)
-
-fam5=df[df['Parch']==5].shape[0]
-print('Number of passengers with five for children and/or parents on board:', fam5)
-fam5_survived=df[(df['Parch']==5) & (df['Survived']==1)].shape[0]
-print('Number of passengers with five for children and/or parents on board who survived:', fam5_survived)
-
-fam6=df[df['Parch']==6].shape[0]
-print('Number of passengers with six for children and/or parents on board:', fam6)
-fam6_survived=df[(df['Parch']==6) & (df['Survived']==1)].shape[0]
-print('Number of passengers with six for children and/or parents on board who survived:', fam6_survived)
 ```
+The same code was repeated for passengers with 2, 3, 4, 5, and 6 parents/children listed. 
 ![pic12_img](https://github.com/Scara98/Portfolio/blob/imgs/pic12_img)
 ![img.6png](https://github.com/Scara98/Portfolio/blob/imgs/img6.png)
 #### Highest survival rate when combining sex and class with third factor
@@ -397,6 +257,7 @@ print('Number of 1st class female passengers aged 18-64:', combo6)
 combo6_survived = df[(df['Sex'] == 'female') & (df['Survived'] == 1) & (df['Age']>= 18) & (df['Age']<=64) & (df['Pclass']==1)].shape[0]
 print('Number of 1st class female passengers aged 18-64 who survived:', combo6_survived)
 ```
+Each combination was repeated with all classes, both sexes, and each different type within each category. For example using the cabins passengers stayed in with sex and class the code would be run with each different Cabin(A, B, C, D, E, F, G, T, N/A) and each Cabin would be tested with females in classes 1, 2, and 3 and also tested with males in classes 1, 2, and 3. So in this example using Cabins, there were 54 different combinations in total. The highest survival rate for each category is shown. 
 ![pic13_img](https://github.com/Scara98/Portfolio/blob/imgs/pic13_img)
 #### Lowest survival rate when combining sex and class with third factor
 ```python
@@ -436,6 +297,7 @@ print('Number of 2nd class male passengers aged 18-64:', lcombo6)
 lcombo6_survived = df[(df['Sex'] == 'male') & (df['Survived'] == 1) & (df['Age']>= 18) & (df['Age']<=64) & (df['Pclass']==2)].shape[0]
 print('Number of 2nd class male passengers aged 18-64 who survived:', lcombo6_survived)
 ```
+Each combination was repeated with all classes, both sexes, and each different type within each category. For example using the point where passengers Embarked with sex and class the code would be run with each different embarkation point(C, S, Q, N/A) and each embarkation point would be tested with females in classes 1, 2, and 3 and also tested with males in classes 1, 2, and 3. So in this example using Embarkation point, there were 24 different combinations in total. The lowest survival rate for each category is shown.
 ![pic14_img](https://github.com/Scara98/Portfolio/blob/imgs/pic14_img)
 ![img8](https://github.com/Scara98/Portfolio/blob/imgs/img8.png)
 ![img9](https://github.com/Scara98/Portfolio/blob/imgs/img9.png)
@@ -444,4 +306,4 @@ print('Number of 2nd class male passengers aged 18-64 who survived:', lcombo6_su
 ![img12](https://github.com/Scara98/Portfolio/blob/imgs/img12.png)
 ![img13](https://github.com/Scara98/Portfolio/blob/imgs/img13.png)
 ## Data Conclussions
-Females had a higher survival rate than males with first class females having the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for two out of the six combinations.
+Sex and and Class were factors that contributed to survival rate. When running all the different combinations no other factors were consistant in survival rate like sex and class were. First class females having the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for two out of the six combinations.
