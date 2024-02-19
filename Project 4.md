@@ -73,6 +73,7 @@ print('Number of 1st class male passengers that survived:', class7_survived)
 The code was repeated for classes 2 and 3 for both males and females. 
 ![pic6_img](https://github.com/Scara98/Portfolio/blob/imgs/pic6_img)
 ![image1.png](https://github.com/Scara98/Portfolio/blob/imgs/image1.png)
+First class females had a 97% survival rate, second class had a 92% rate and third class had only a 50% rate. First class males had a 37% survival rate, second class had a 16% rate and third class had a 14% rate. This shows that as your class went down so did your survival rate. It also shows that women had a significantly higher survival rate than their male counterparts.
 #### Count number of males and females split by age survival rate
 ```python
 childrenf=df[(df['Sex']== 'female') & (df['Age']<=17)].shape[0]
@@ -98,7 +99,7 @@ print('Number of unrecorded age females who survived:', unknownf_survived)
 The same code was repeated for males. 
 ![pic4_img](https://github.com/Scara98/Portfolio/blob/imgs/pic4_img)
 ![img7](https://github.com/Scara98/Portfolio/blob/imgs/img7.png)
-
+Males under 18 had a 40% survival rate, those 18-64 had an 18% rate and those 65 and over only had a 9% rate. Females under 18 had a 69% survival rate and females ages 18-64 had a 77% rate. There were no females recorded who were 65 and older. Males with an unknown age had a 13% survival rate and females with an unknown age had a 68% survival rate. There seems to be a higher survival rate for men the younger they were but that trend did not follow for females because the older group had a higher survival rate then the younger group. 
 
 
 #### Survival rate by cabin
@@ -116,6 +117,7 @@ print('Number of Cabin B passengers that survived:', cabinb_survived)
 The same code was repeated for passengers in Cabins C, D, E, F, G, T, and passengers not listed in a Cabin.
 ![pic7_img](https://github.com/Scara98/Portfolio/blob/imgs/pic7_img)
 ![img3](https://github.com/Scara98/Portfolio/blob/imgs/img3.png)
+Males who were in a cabin had a 42% survival rate whereas males not in a cabin only had a 14% survival rate. Females in a cabin had a 94% survival rate and females not in a cabin had a 65% survival rate. Survival rates for both men and women were significantly higher if they were in a cabin. 
 #### Survival based on where passengers embarked
 ```python
 embarkc=df[df['Embarked']=='C'].shape[0]
