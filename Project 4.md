@@ -142,6 +142,7 @@ print('Number of people who boarded in an unknown location that survived:', emba
 ```
 ![pic8_img](https://github.com/Scara98/Portfolio/blob/imgs/pic8_img)
 ![img2.png](https://github.com/Scara98/Portfolio/blob/imgs/img2.png)
+The survival rate for males who boarded in Southampton was 17%, in Cherbourg was 31%, and in Queenstown was 7%. The survival rate for females who boarded in Southampton was 69%, in C was 88%, in Queenstown was 75% and there were two female passengers who did not have an embarkation point recorded and they both survived. The highest survival rate by embarkation point was Cherbourg though the survival rate for the other two embarkation points did not correlate between males and females. 
 #### Survival based on fare paid
 ```python
 fare10=df[df['Fare']<=9.99].shape[0]
@@ -166,6 +167,7 @@ print('Number of people who paid $100 or more fare who survived:', fare500_survi
 ```
 ![pic9_img](https://github.com/Scara98/Portfolio/blob/imgs/pic9_img)
 ![img4.png](https://github.com/Scara98/Portfolio/blob/imgs/img4.png)
+Males who paid under $10 had an 11% survival rate, those who paid $10 to $29.99 had a 21% rate, if they paid $30 to $99.99 they had a 33% survival rate and for males who paid $100 or more their survival rate was 37%. Females who paid under $10 had a 59% survival rate, if they paid $10 to $29.99 they had a 71% survival rate, when they paid $30 to $99.99 they had a rate of 83% and if they paid $100 or more they had a 94% rate of survival. This shows that for male and female passengers their chances of survival increased as the fare that was paid increased. 
 #### Using fare and class to determine survival rate
 ```python
 fare10_1=df[(df['Fare']<=9.99) & (df['Pclass']==1)].shape[0]
@@ -191,6 +193,7 @@ print('Number of people in 1st class who paid $100 or more for their fare who su
 The same code was repeated for passengers in 2nd and 3rd class. 
 ![pic10_img](https://github.com/Scara98/Portfolio/blob/imgs/pic10_img)
 ![img14.png](https://github.com/Scara98/Portfolio/blob/imgs/img14.png)
+1st class passengers who paid under $10 had a 0% survival rate though there were only 6 passengers in that class and fare, 1st class who paid $10-$29.99 had a 47% survival rate, if they paid $30 to $99.99 they had a 74% survival rate. 2nd class passengers who paid under $10 (only 6 passengers) had a 0% survival rate, paying $10-$29.99 they had a 48% survival rate, if they paid $30-$99.99 they had a 56% survival rate. 3rd class passengers who paid under $10 had a 21% survival rate, if they paid $10-$29.99 they had a 35% survival rate and if they paid $30 to $99.99 they had a 20% survival rate. There were no 2nd or 3rd class passengers recorded who paid $100 and over for their fare. First and second class passengers followed the trend that showed the more they paid the more likely they were to survive, this however was not the case for third class passengers as those who paid the most fare actually had the lowest survival rate. 
 #### Survival rate for siblings/spouse number
 ```python
 sibsp0=df[df['SibSp']==0].shape[0]
@@ -206,6 +209,7 @@ print('Number of passengers with one sibling or spouse on board who survived:', 
 The same code was repeated for passengers with 2, 3, 4, 5, and 8 siblings/spouse listed. 
 ![pic11_img](https://github.com/Scara98/Portfolio/blob/imgs/pic11_img)
 ![img5.png](https://github.com/Scara98/Portfolio/blob/imgs/img5.png)
+Males with no siblings or spouse aboard had a 17% chance of survival, with 1 sibling or spouse they had a 31% chance, with 2 siblings and or spouse they had a 20% chance, with 3 recorded for siblings and or spouse they had a 0% survival rate, with 4 for siblings and or spouse they had a =n 8% chance of survival, the chance of survival with both 5 or 8 siblings and or spouse was 0%. Females with no siblings or spouse aboard had a 79% survival rate, if they had one sibling or spouse they had a 75% chance, with 2 for siblings and or spouse the rate was 77%, with 3 it was 36%, with 4 it was 33% and with both 5 or 8 for siblings and or spouse the survival rate was 0%. 
 #### Number of children/parents on board survival rate
 ```python
 fam0=df[df['Parch']==0].shape[0]
@@ -221,6 +225,7 @@ print('Number of passengers with one child or parent on board who survived:', fa
 The same code was repeated for passengers with 2, 3, 4, 5, and 6 parents/children listed. 
 ![pic12_img](https://github.com/Scara98/Portfolio/blob/imgs/pic12_img)
 ![img.6png](https://github.com/Scara98/Portfolio/blob/imgs/img6.png)
+Males with no child or parent on board had a 17% survival rate, with one child or parent they had a 33% survival rate, with 2 for children and or parents the rate was 32%, if they had 3, 4, or 5 for children and or parents their survival rate was 0%. For females with no child or parent their survival rate was 79%, if they had 1 child or parent on board their rate was 77%, if they had 2 for children and or parents their rate was 61%, for 3 their rate was 75%, for 4 their rate was 0%, for 5 the rate was 25% and for 6 their rate was 0%.
 #### Highest survival rate when combining sex and class with third factor
 ```python
 #highest percent combo(over 23ppl) out of all sex, class, and fare combinations
@@ -302,10 +307,16 @@ print('Number of 2nd class male passengers aged 18-64 who survived:', lcombo6_su
 Each combination was repeated with all classes, both sexes, and each different type within each category. For example using the point where passengers Embarked with sex and class the code would be run with each different embarkation point(C, S, Q, N/A) and each embarkation point would be tested with females in classes 1, 2, and 3 and also tested with males in classes 1, 2, and 3. So in this example using Embarkation point, there were 24 different combinations in total. The lowest survival rate for each category is shown.
 ![pic14_img](https://github.com/Scara98/Portfolio/blob/imgs/pic14_img)
 ![img8](https://github.com/Scara98/Portfolio/blob/imgs/img8.png)
+97% of first class females ages 18-64 survived verses only 7% of second class males ages 18-64 survived. 
 ![img9](https://github.com/Scara98/Portfolio/blob/imgs/img9.png)
+100% of first class females in cabin B survived versus the 13% of second class males who were not in a cabin survived.
 ![img10](https://github.com/Scara98/Portfolio/blob/imgs/img10.png)
+98% of first class females who embarked in Cherbourg survived whereas 8% of third class males who embarked in Queenstown survived. 
 ![img11](https://github.com/Scara98/Portfolio/blob/imgs/img11.png)
+100% of first class females who paid $30-$99.99 survived but only 11% of third class males who paid under $10 survived.
 ![img12](https://github.com/Scara98/Portfolio/blob/imgs/img12.png)
+98% of first class females who had no children or parents on board had a 98% survival rate and second class males who had no children or parents on board only had a 9% rate.
 ![img13](https://github.com/Scara98/Portfolio/blob/imgs/img13.png)
+98% of first class females with no spouse or siblings on board survived but only 12% of second class males with no siblings or spouse survived. 
 ## Data Conclussions
 Sex and and Class were factors that contributed to survival rate. When running all the different combinations no other factors were consistant in survival rate like sex and class were. First class females having the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for two out of the six combinations.
