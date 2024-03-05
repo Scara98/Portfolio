@@ -230,10 +230,10 @@ The same code was repeated for passengers in 2nd and 3rd class.
 The following was concluded for survival rates based on passengers' class and fare paid:
 
 1st class passengers:
-Under $10: 0% survival rate.
-$10 to $29.99: 47% survival rate.
-$30 to $99.99: 66% survival rate.
-$100 or more: 74% survival rate.
+* Under $10: 0% survival rate.
+* $10 to $29.99: 47% survival rate.
+* $30 to $99.99: 66% survival rate.
+* $100 or more: 74% survival rate.
 
 2nd class passengers:
 Under $10: 0% survival rate.
