@@ -167,7 +167,7 @@ print('Number of people who boarded in an unknown location that survived:', emba
 
 ![img2.png](https://github.com/Scara98/Portfolio/blob/imgs/img2.png)
 
-Males boarding in Southampton had a survival rate of 17%, while those in Cherbourg had a higher rate of 31%, and those in Queenstown had the lowest rate at 7%. Conversely, females boarding in Southampton had a survival rate of 69%, those in Cherbourg had the highest rate at 88%, and those in Queenstown had a survival rate of 75%. Notably, two female passengers without recorded embarkation points both survived.Cherbourg had the highest survival rate overall, but the pattern differed between males and females across embarkation points.
+Males boarding in Southampton had a survival rate of 17%, while those in Cherbourg had a higher rate of 31%, and those in Queenstown had the lowest rate at 7%. Conversely, females boarding in Southampton had a survival rate of 69%, those in Cherbourg had the highest rate at 88%, and those in Queenstown had a survival rate of 75%. Notably, two female passengers without recorded embarkation points both survived. Cherbourg had the highest survival rate overall, but the pattern differed between males and females across embarkation points.
 
 #### Survival based on fare paid
 ```python
@@ -440,4 +440,4 @@ Each combination was repeated with all classes, both sexes, and each different t
 98% of first class females with no spouse or siblings on board survived but only 12% of second class males with no siblings or spouse survived. 
 
 ## Data Conclussions
-Sex, Class, Fare, and being in a Cabin were factors that contributed to survival rate. When running all the different combinations no other factors were consistant in survival rate like sex and class were. First class females having the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for two out of the six combinations.
+Sex, class, fare, and having a cabin were key factors affecting survival on the Titanic. While paying more for fare generally increased survival chances, class mattered more, with third-class passengers having their lowest survival rate in combination with their highest fare paid. Passengers with cabins had around 30% higher survival rates than those without. Among various factors, sex and class were the most consistent predictors of survival, with 1st class passengers having the highest survival rates in most comparisons and females having higher survival rates than males in every comparison. First class females had the highest percentage rate of survival in all combinations using sex and class. Males in second class had the lowest survival rate in four out of six combinations whereas third class males had the lowest rate for the remaining combinations.
