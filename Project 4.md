@@ -1,5 +1,5 @@
 ## Project Objective
-In my study of the Titanic's passenger survival rates, I aim to explore different factors that may have influenced who survived and who didn't. In addition, I will also be looking at different groups of passengers to see which groups had the highest and lowest chances of surviving the disaster.
+In my study of the Titanic's passenger survival rates, I aim to explore different factors that may have influenced which passengers survived and which didn't. In addition, I will also be looking at different groups of passengers to see which groups had the highest and lowest chances of surviving the disaster.
 
 ## Project Data Source
 [Titanic Dataset](https://www.kaggle.com/competitions/titanic/data?select=train.csv) Provided by Kaggle
