@@ -236,16 +236,16 @@ The following was concluded for survival rates based on passengers' class and fa
 * $100 or more: 74% survival rate.
 
 2nd class passengers:
-Under $10: 0% survival rate.
-$10 to $29.99: 48% survival rate.
-$30 to $99.99: 56% survival rate.
-No passengers were recorded paying $100 or more in this class.
+* Under $10: 0% survival rate.
+* $10 to $29.99: 48% survival rate.
+* $30 to $99.99: 56% survival rate.
+* No passengers were recorded paying $100 or more in this class.
 
 3rd class passengers:
-Under $10: 21% survival rate.
-$10 to $29.99: 35% survival rate.
-$30 to $99.99: 20% survival rate.
-No passengers were recorded paying $100 or more in this class.
+* Under $10: 21% survival rate.
+* $10 to $29.99: 35% survival rate.
+* $30 to $99.99: 20% survival rate.
+* No passengers were recorded paying $100 or more in this class.
 
 In conclusion, for 1st and 2nd class passengers, higher fares correlated with higher survival rates. However for 3rd class passengers, higher fares did not necessarily correlate with higher survival rates; those who paid the most had the lowest survival rate.
 
@@ -270,22 +270,22 @@ The same code was repeated for passengers with 2, 3, 4, 5, and 8 siblings/spouse
 The passengers' survival rates based on this factor are as follows:
 
 Males:
-No siblings or spouse: 17% survival rate.
-1 sibling or spouse: 31% survival rate.
-2 siblings and/or spouse: 20% survival rate.
-3 siblings and/or spouse: 0% survival rate.
-4 siblings and/or spouse: 8% survival rate.
-5 siblings and/or spouse: 0% survival rate.
-8 siblings and/or spouse: 0% survival rate.
+* No siblings or spouse: 17% survival rate.
+* 1 sibling or spouse: 31% survival rate.
+* 2 siblings and/or spouse: 20% survival rate.
+* 3 siblings and/or spouse: 0% survival rate.
+* 4 siblings and/or spouse: 8% survival rate.
+* 5 siblings and/or spouse: 0% survival rate.
+* 8 siblings and/or spouse: 0% survival rate.
 
 Females:
-No siblings or spouse: 79% survival rate.
-1 sibling or spouse: 75% survival rate.
-2 siblings and/or spouse: 77% survival rate.
-3 siblings and/or spouse: 36% survival rate.
-4 siblings and/or spouse: 33% survival rate.
-5 siblings and/or spouse: 0% survival rate.
-8 siblings and/or spouse: 0% survival rate.
+* No siblings or spouse: 79% survival rate.
+* 1 sibling or spouse: 75% survival rate.
+* 2 siblings and/or spouse: 77% survival rate.
+* 3 siblings and/or spouse: 36% survival rate.
+* 4 siblings and/or spouse: 33% survival rate.
+* 5 siblings and/or spouse: 0% survival rate.
+* 8 siblings and/or spouse: 0% survival rate.
 
 This data shows that both males and females experienced fluctuating survival rates based on the number of siblings and or spouse aboard. No specific trend for males or females survival rate in correlation to the number of siblings and or spouse they had aboard.
 
@@ -307,27 +307,25 @@ The same code was repeated for passengers with 2, 3, 4, 5, and 6 parents/childre
 
 ![img.6png](https://github.com/Scara98/Portfolio/blob/imgs/img6.png)
 
-For males, those with no children or parents on board had a survival rate of 17%. This rate increased to 33% when they had one child or parent. However, having two recorded for children and or parents resulted in a slightly lower survival rate of 32%. Notably, having 3, 4, or 5 recorded for children or parents led to a 0% survival rate. Similarly, females with no children or parents aboard had a high survival rate of 79%. This rate decreased slightly to 77% when they had one child or parent on board. However, having two recorded for children and or parents decreased the survival rate to 61%. Interestingly, having three children or parents increased the survival rate to 75%, but having four resulted in a 0% survival rate. Furthermore, having five led to a 25% survival rate, while having six resulted in a 0% survival rate. In summary, both males and females experienced fluctuations in survival rates based on the number of children or parents aboard, showing no clear trends for survival rates.
-
 The following information shows the survival rates of the male and female passengers on board based on their parch:
 
 Males:
-No children or parents: 17% survival rate.
-1 child or parent: 33% survival rate.
-2 children and/or parents: 32% survival rate.
-3 children and/or parents: 0% survival rate.
-4 children and/or parents: 0% survival rate.
-5 children and/or parents: 0% survival rate.
-No males were recorded as having 6 children and/or parents aboard.
+* No children or parents: 17% survival rate.
+* 1 child or parent: 33% survival rate.
+* 2 children and/or parents: 32% survival rate.
+* 3 children and/or parents: 0% survival rate.
+* 4 children and/or parents: 0% survival rate.
+* 5 children and/or parents: 0% survival rate.
+* No males were recorded as having 6 children and/or parents aboard.
 
 Females:
-No children or parents: 79% survival rate.
-1 child or parent: 77% survival rate.
-2 children and/or parents: 61% survival rate.
-3 children and/or parents: 75% survival rate.
-4 children and/or parents: 0% survival rate.
-5 children and/or parents: 25% survival rate.
-6 children and/or parents: 0% survival rate.
+* No children or parents: 79% survival rate.
+* 1 child or parent: 77% survival rate.
+* 2 children and/or parents: 61% survival rate.
+* 3 children and/or parents: 75% survival rate.
+* 4 children and/or parents: 0% survival rate.
+* 5 children and/or parents: 25% survival rate.
+* 6 children and/or parents: 0% survival rate.
 
 Both males and females experienced fluctuations in survival rates based on the number of children and or parents aboard; this shows that there were no clear trends for survival rates based on the number of children and or parents passengers had aboard.
 
