@@ -1,5 +1,5 @@
 ## Project Objective
-Using Census data from 2022, my objective was to discern variations in job occupations and median pay among demographic groups, specifically focusing on black men, white men, black women, and white women. 
+Using Census data from 2022, my objective was to discern variations in job occupations and median pay among demographic groups, specifically focusing on black men, white men, black women, and white women.
 
 ## Data Sources
 All three datasets I used were from the Census website:
